@@ -5,9 +5,9 @@ services:
     image: "chriszarate/wordpress:4.9.1"
     environment:
       VIRTUAL_HOST: "${DOCKER_DEV_DOMAIN}"
-      WORDPRESS_ACTIVATE_PLUGINS: "my-plugin" # plugin folder relative to /wp-content/plugins/
+      WORDPRESS_ACTIVATE_PLUGINS: "" # plugin folder relative to /wp-content/plugins/
       WORDPRESS_ACTIVATE_THEME: ""   # theme folder relative to /wp-content/themes/
-      WORDPRESS_SITE_TITLE: "Project"
+      WORDPRESS_SITE_TITLE: "Phyt Rehab"
       WORDPRESS_SITE_URL: "http://${DOCKER_DEV_DOMAIN}"
       XDEBUG_CONFIG: "remote_host=${DOCKER_LOCAL_IP} idekey=xdebug"
     depends_on:
@@ -16,7 +16,9 @@ services:
       - "front"
       - "back"
     volumes:
-      - ".:/var/www/html/wp-content/plugins/my-plugin"
+        - "./phyt-jobs:/var/www/html/wp-content/plugins/phyt-jobs"
+        - "./phyt-theme:/var/www/html/wp-content/themes/phyt-theme"
+        - "./soi/:/var/www/html/wp-content/plugins/soil"
   mysql:
     image: "mariadb:10.2"
     environment:
