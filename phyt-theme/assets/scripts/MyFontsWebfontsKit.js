@@ -43,4 +43,3 @@ a:for(;i<browLen;i++){var regex=new RegExp(browsers[i].regex);if(regex.test(navi
 for(var fonts=[{fontFamily:"Museo-300",url:wfpath+"35C7FD_0"+suffix+"_0."+webfontType},{fontFamily:"Museo-500",url:wfpath+"35C7FD_1"+suffix+"_0."+webfontType},{fontFamily:"Museo-300Italic",url:wfpath+"35C7FD_2"+suffix+"_0."+webfontType},{fontFamily:"Museo-500Italic",url:wfpath+"35C7FD_3"+suffix+"_0."+webfontType}],len=fonts.length,css="",i=0;i<len;i++){var format="svg#wf"==webfontType?'format("svg")':"ttf"==webfontType?'format("truetype")':"eot"==webfontType?"":'format("'+webfontType+'")',css=css+
 ("@font-face{font-family: "+fonts[i].fontFamily+";src:url("+fonts[i].url+")"+format+";");fonts[i].fontWeight&&(css+="font-weight: "+fonts[i].fontWeight+";");fonts[i].fontStyle&&(css+="font-style: "+fonts[i].fontStyle+";");css+="}"}stylesheet.styleSheet?stylesheet.styleSheet.cssText=css:stylesheet.innerHTML=css;
 /* jshint ignore:end */
-console.log(fonts);
