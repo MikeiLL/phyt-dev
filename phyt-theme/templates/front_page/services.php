@@ -1,6 +1,6 @@
 <div class="container">
-  <div class="row">
-  <h2>Our Services</h2>
+  <div>
+  <h2 class="text-center">Our Services</h2>
     <p>
     A national rehabilitation company, Phyt provides services to patients in skilled nursing facilities, outpatient, and community programs. Our therapists, the #PhytSquad are a national community of licensed, experienced, results-driven natural caregivers.
     <p>
