@@ -18,7 +18,7 @@ services:
     volumes:
         - "./phyt-jobs:/var/www/html/wp-content/plugins/phyt-jobs"
         - "./phyt-theme:/var/www/html/wp-content/themes/phyt-theme"
-        - "./soi/:/var/www/html/wp-content/plugins/soil"
+        - "./soil/:/var/www/html/wp-content/plugins/soil"
   mysql:
     image: "mariadb:10.2"
     environment:
