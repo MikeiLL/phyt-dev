@@ -16,8 +16,8 @@ $sage_includes = [
   'lib/titles.php',    // Page titles
   'lib/wrapper.php',   // Theme wrapper class
   'lib/customizer.php', // Theme customizer
-  'lib/wp_bootstrap_navwalker.php', // Bootstrap NavWalker
-  'lib/page-hero/page-hero.php' // Include our Hero Page function.
+  'lib/wp_bootstrap_navwalker.php' // Bootstrap NavWalker
+  // TODO consider adding: 'lib/page-hero/page-hero.php' // Include our Hero Page function.
 ];
 
 foreach ($sage_includes as $file) {
