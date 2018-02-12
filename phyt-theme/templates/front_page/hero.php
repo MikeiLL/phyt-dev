@@ -4,10 +4,21 @@
 <section class="hero">
   <div class="container-fluid">
     <div class="row">
-      <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-        <h5>Hello, world! Full width Hero-unit header</h5>
-        <p>This is a template for a simple marketing or informational website. It includes a large callout called the hero unit and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
+      <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
+        <h5>What Matters Most Is Results</h5>
+        <p>With over 35 years experience, we work with <em>patients</em> and <em>partners</em> to develop and manage individualized physical, occupational and speech therapy programs.</p>
         <p><a href="#" class="btn btn-primary btn-large">Learn more »</a></p>
+      </div>
+      <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+        <div class="card text-white bg-info mb-3 text-center">
+        <div class="card-block">
+          <p class="card-text">Call Us</p>
+          <hr />
+          <p class="card-text">Toll Free</p>
+          <hr />
+          <p class="card-text">Join the #PhytSquad</p>
+        </div>
+      </div>
       </div>
     </div>
   </div>
