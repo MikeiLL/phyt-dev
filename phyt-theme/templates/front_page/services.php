@@ -1,4 +1,4 @@
-<div class="container">
+<div class="container py-2">
   <div>
   <h2 class="text-center">Our Services</h2>
     <p>
