@@ -1,1 +1,4 @@
-
+// Grid system
+.main {
+  @include make-col-ready();
+}

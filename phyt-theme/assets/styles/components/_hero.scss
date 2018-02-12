@@ -1,5 +1,4 @@
 .hero {
-  width:100%;
   min-height:500px;
   background-repeat: no-repeat;
   background-position: center top;
@@ -7,13 +6,11 @@
   background-attachment: fixed;
   overflow: auto;
   color: white;
+  margin-left: -15px;
+  margin-right: -15px;
 }
 
 .hero-frontpage {
   background: url('../images/nurse_helping_patient_from_bed.jpg');
 }
 
-.hero h5 {
-  color:white;
-  text-shadow:2px 2px #333;
-}
