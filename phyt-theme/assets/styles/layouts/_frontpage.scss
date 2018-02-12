@@ -1,5 +1,34 @@
-.contact-frontpage {
+.card {
+	
+}
+
+.frontpage-services p {
+	font-family: "Source Sans Pro", Arial, Helvetica, sans-serif;
+	font-size: 1.4em;
+	line-height: 2;
+	margin:0 auto;
+	width:80%;
+}
+
+.frontpage-services__service {
+	padding-top: 40px;
+}
+
+
+.frontpage-contact {
   background: url('../images/nurse-desk-chair.jpg');
   margin-right: -15px;
   margin-left: -15px;
+}
+
+.frontpage-contact {
+	padding-top: 100px;
+}
+.frontpage-contact__title {
+	color:#fff;
+}
+.frontpage-contact__hr {
+	background-color: #fff;
+	height:3px;
+	width:10%;
 }

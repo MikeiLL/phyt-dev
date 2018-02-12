@@ -12,9 +12,43 @@
 
 .hero-frontpage {
   background: url('../images/nurse_helping_patient_from_bed.jpg');
+  background-position:40% top; 
 }
 
+.hero__wrapper {
+  margin: 0 auto;
+  width: 90%;
+
+}
+
+.hero-frontpage__title {
+  font-family: "Source Sans Pro", Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  font-size: 5em;
+  line-height: 1;
+  letter-spacing: 0px;
+  width: 90%
+}
+.hero__text {
+  font-family: Cabin, Arial, Helvetica, sans-serif;
+  font-size: 1.5rem;
+}
 .hero-careers {
   background: url('../images/happy-caregivers.jpg');
 }
 
+.hero__card {
+  background-color:rgba(0, 123, 187, 0.53) !important;
+  color:#fff;
+  padding:1.5em;
+  font-size: 1.4em;
+  a {
+    color: inherit;
+  }
+}
+
+.hero__card hr {
+  background-color: $blueMain;
+  border: none;
+  height:3px;
+}
