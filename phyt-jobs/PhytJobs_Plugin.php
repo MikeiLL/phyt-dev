@@ -244,7 +244,10 @@ class PhytJobs_Plugin extends PhytJobs_LifeCycle {
 	}
 	
 	public function enqueueStyles(){
-
+		wp_enqueue_style(
+		 'phyt-jobs-styles', 
+		 plugins_url('/css/style.css', __FILE__)
+		);
 	}
 
 	/**
