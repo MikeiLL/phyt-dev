@@ -1,5 +1,5 @@
 <?php use Roots\Sage\Titles; ?>
-<?php if (!is_front_page()) { ?>
+<?php if (!is_front_page() && !is_page('careers')) { ?>
 <div class="page-header">
   <h1><?= Titles\title(); ?></h1>
 </div>

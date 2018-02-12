@@ -1,3 +1,6 @@
+<?php
+use  Roots\Sage\HeroRender;
+?>
 <div class="sticky-top">
   <div class="contact-strip clearfix">
     <span class="float-right"><a href="mailto:info@phytrehab.com">info@phytrehab.com</a></span><span class="float-right"><a href="tel:+8885753483">1.888.575.3483</a></span>
@@ -15,6 +18,6 @@
         ?>
     </div>
   </nav>
-</div>
+</div><?php // TODO consider adding if (HeroRender\phyt_has_hero()) HeroRender\phyt_get_hero(); ?>
 
 

@@ -15,10 +15,10 @@
 		var btn = e.target;
 
 		// Check if it's the upload button
-		if ( !btn || !$( btn ).attr( 'data-puredemo-page-hero' ) ) return;
+		if ( !btn || !$( btn ).attr( 'data-phyt-page-hero' ) ) return;
 
 		// Get the field
-		var field = $( btn ).data( 'puredemo-page-hero' );
+		var field = $( btn ).data( 'phyt-page-hero' );
 
 		// Prevents the default action from occuring.
 		e.preventDefault();
