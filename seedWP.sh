@@ -5,6 +5,9 @@ docker-compose exec --user www-data wordpress wp post create --post_type=page --
 docker-compose exec --user www-data wordpress wp post create --post_type=page --post_content --post_title="Patients" --post_status=published
 docker-compose exec --user www-data wordpress wp post create --post_type=page --post_content --post_title="Partners" --post_status=published
 docker-compose exec --user www-data wordpress wp post create --post_type=page --post_content --post_title="Careers" --post_status=published
+docker-compose exec --user www-data wordpress wp post create --post_type=job --post_content --post_title="Manhattan Manager" --post_status=published
+docker-compose exec --user www-data wordpress wp post create --post_type=job --post_content --post_title="Brooklyn Manager" --post_status=published
+docker-compose exec --user www-data wordpress wp post create --post_type=job --post_content --post_title="Queens Manager" --post_status=published
 docker-compose exec --user www-data wordpress wp menu create "Primary Navigation"
 docker-compose exec --user www-data wordpress wp theme activate phyt-theme
 docker-compose exec --user www-data wordpress wp plugin install advanced-custom-fields simple-locator --activate
