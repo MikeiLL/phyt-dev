@@ -24,3 +24,17 @@
       max-width: 100%;
     }
 }
+
+.contact-strip {
+  color: white;
+  background: gray(700);
+  font-size: .7em;
+  padding: .3em;
+  span {
+    margin: auto .5em;
+    font-family: sans-serif, helvetica, arial;
+    a {
+      color: white;
+    }
+  }
+}

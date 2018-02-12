@@ -14,7 +14,7 @@
           <div class="card-block">
             <p class="card-text">Call Us</p>
             <hr />
-            <p class="card-text">Toll Free</p>
+            <p class="card-text"><a href="tel:+8885753483">Toll Free: 1.888.575.3483</a></p>
             <hr />
             <p class="card-text">Join the #PhytSquad</p>
           </div>

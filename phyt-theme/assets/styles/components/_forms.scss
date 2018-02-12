@@ -13,3 +13,13 @@
   @extend .btn;
   @extend .btn-secondary;
 }
+
+.wpcf7 {
+  font-size: .7em;
+}
+
+@media (min-width: map-get($breakpoints, medium)) {
+  .wpcf7 {
+    font-size: 1em;
+  }
+}
