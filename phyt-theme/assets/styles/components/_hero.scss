@@ -1,19 +1,17 @@
 .hero {
-  min-height:500px;
-  background-repeat: no-repeat;
-  background-position: center top;
-  background-size:cover;
+  min-height:350px;
+  background-size: cover !important;
   background-attachment: fixed;
   overflow: auto;
   color: white;
+  position: relative;
   margin-left: -15px;
   margin-right: -15px;
 }
 
 .hero-frontpage {
-  background: url('../images/nurse_helping_patient_from_bed.jpg');
+  background: url('../images/nurse_helping_patient_from_bed.jpg') center top no-repeat;
   background-position:45% top; /* mobile first*/
- // background-position:40% top;
 }
 
 .hero__wrapper {
@@ -31,17 +29,21 @@
   letter-spacing: 0px;
   width: 90%
 }
-.hero__text {
 
+.hero__text {
   font-size: 1.5rem;
 }
+
 .hero-careers {
-  background: url('../images/happy-caregivers.jpg');
+  background: url('../images/happy-caregivers.jpg') center top no-repeat;
 }
 
-
 .hero-partners {
-  background: url('../images/chalkboard-network-faces.jpg');
+  background: linear-gradient(
+                rgba(0, 0, 0, 0.45),
+                rgba(20, 20, 20, 0.45)
+              ), url('../images/medical-cooperation.jpg') center center no-repeat;
+  background-size: 750px;
 }
 
 .hero__card {
@@ -59,4 +61,10 @@
   background-color: $blueMain;
   border: none;
   height:3px;
+}
+
+@media (min-width: map-get($breakpoints, medium)) {
+  .hero {
+    height:500px;
+  }
 }
