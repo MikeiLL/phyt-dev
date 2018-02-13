@@ -1,7 +1,7 @@
 <div class="container">
   <div class="row border border-light">
     <div class="col-8">
-      <blockquote>Wanting to go home. Yearning to be back to your old self, able to do all the things you used to do on your own.</blockquote>
+      <blockquote>Wanting to go home. Yearning to be back to your old self, able to do all the things you used to do on your own. We know.</blockquote>
     </div>
     <div class="col-8">
       <p>When you’re well enough to qualify as a patient in an outstanding rehabilitation center–the quality of facilities that Phyt partners with–you are not just taken care of, you are cared for. Our experienced, informed therapists, the #PhytSquad, work patiently to help clients regain their capabilities to their maximum potential.</p>
