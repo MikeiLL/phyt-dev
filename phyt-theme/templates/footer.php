@@ -68,13 +68,21 @@
                         <svg class="icon icon-clock-o"><use xlink:href="#icon-clock"></use></svg><span class="name"> icon-clock</span>
                     </div>
                 </div>
+                <div class="glyph fs1">
+                    <div class="clearfix pbs">
+                        <svg class="icon ant-down"><use xlink:href="#ant-down"></use></svg><span class="name"> ant-down</span>
+                    </div>
+                </div>
+                <div class="glyph fs1">
+                    <div class="clearfix pbs">
+                        <svg class="icon icon-clock-o"><use xlink:href="#chevron-down"></use></svg><span class="name"> chevron-down</span>
+                    </div>
+                </div>
           </div>
 
-          <div class="glyph fs1">
-              <div class="clearfix pbs">
-                  <svg class="icon hero-caret"><use xlink:href="#icon-downcaret"></use></svg><span class="name"> icon-downcaret</span>
-              </div>
-          </div>
+
+                  <svg class="icon hero-caret"><use xlink:href="#icon-downcaret"></use></svg>
+
       </div>
 
       <div class="col-12 col-md-6 clearfix">
