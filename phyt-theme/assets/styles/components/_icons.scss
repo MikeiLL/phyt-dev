@@ -1,7 +1,7 @@
 .icon {
   display: inline-block;
-  width: 1em;
-  height: 1em;
+  width: 1.5em;
+  height: 1.5em;
   stroke-width: 0;
   stroke: currentColor;
   fill: currentColor;
@@ -9,8 +9,8 @@
 
 .hero-caret {
   display: inline-block;
-  width: 8em;
-  height: 8em;
+  width: 1em;
+  height: 1em;
   stroke-width: 0;
   stroke: currentColor;
   fill: currentColor;
@@ -71,3 +71,16 @@ Single-colored icons can be modified like so:
 	animation-delay:0s;
 	-webkit-animation-delay:0s; /* Safari 和 Chrome */
 }
+
+.icon-facebook2 {
+	color: $fbBlue;
+}
+.icon-twitter {
+	color:$twitter;
+}
+.icon-linkedin {
+	color:$linkedIn;
+}
+.icon:hover{
+	color:$amber;
+};

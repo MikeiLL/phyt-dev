@@ -14,7 +14,14 @@
           </div>
         </div>
       </div>
-
+      <!-- <div class="col-12 col-md-6">
+        <ul class="footer-social">
+          <svg class="icon icon-facebook2"><use xlink:href="#icon-facebook2"></use></svg><span class="name"></span>
+          <li><svg class="icon icon-twitter"><use xlink:href="#icon-twitter"></use></svg><span class="name"></span></li>
+          <li><svg class="icon icon-linkedin"><use xlink:href="#icon-linkedin"></use></svg><span class="name"></span></li>
+        </ul>
+      </div> -->
+      <!--
       <div class="col-12 col-md-6 clearfix">
         <div class="clearfix mhl ptl">
                 <h1 class="mvm mtn fgc1">Grid Size: 16</h1>
@@ -75,10 +82,16 @@
                   <svg class="icon hero-caret"><use xlink:href="#icon-downcaret"></use></svg><span class="name"> icon-downcaret</span>
               </div>
           </div>
-      </div>
+      </div> -->
 
-      <div class="col-12 col-md-6 clearfix">
-        <div class="float-right text-right">America's leading physical,<br /> occupational and speech <br/>therapy group. <p>#PhytSquad</p>SOCIAL LINKS</div>
+      <div class="col-12 col-md-6">
+        <div class="float-right text-right">America's leading physical,<br /> occupational and speech <br/>therapy group. <p>#PhytSquad</p>
+          <ul class="footer-social">
+          <li><a href="https://www.facebook.com/PhytRehab/" target="_blank"><svg class="icon icon-facebook2"><use xlink:href="#icon-facebook2"></use></svg></a></li>
+          <li><a href="https://twitter.com/phytrehab" target="_blank"><svg class="icon icon-twitter"><use xlink:href="#icon-twitter"></use></svg></a></li>
+          <li><a href="https://www.linkedin.com/company/phyt-inc/" target="_blank"><svg class="icon icon-linkedin"><use xlink:href="#icon-linkedin"></use></svg></a></li>
+        </ul>
+        </div>
       </div>
 
     </div>
