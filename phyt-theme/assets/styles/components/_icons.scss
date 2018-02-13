@@ -4,8 +4,10 @@
   stroke-width: 0;
   stroke: currentColor;
   fill: currentColor;
+  color: $blueMain;
 }
 
+<<<<<<< HEAD
 .icon-hero-card {	
 	color:#fff;  
 	height: 1.2em;
@@ -26,6 +28,19 @@
   stroke-width: 0;
   stroke: currentColor;
   fill: currentColor;
+=======
+.hero{
+  .ant-down {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: currentColor;
+    font-size: 4em;
+    color: white;
+  }
+>>>>>>> 59e2bde0b02d807d902bf100e3cf537779c9b24c
 }
 
 /* ==========================================
@@ -35,6 +50,7 @@ Single-colored icons can be modified like so:
   color: red;
 }
 ========================================== */
+<<<<<<< HEAD
 
 .arrows {
 	width: 60px;
@@ -96,3 +112,5 @@ Single-colored icons can be modified like so:
 .icon-footer:hover{
 	color:$amber;
 };
+=======
+>>>>>>> 59e2bde0b02d807d902bf100e3cf537779c9b24c
