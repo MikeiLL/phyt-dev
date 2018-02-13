@@ -1,3 +1,4 @@
+<section class="partners-content">
 <div class="container">
 
 <blockquote>Phyt Rehab is a full service rehabilitation management organization providing <em>clinical</em>, <em>managerial</em>, <em>billing</em> and <em>information technology</em> solutions to the post-acute care community. Over the last 35 years, we have worked with hundreds of Skilled Nursing Facilities, maintaining partnerships with SNF operators around the United States.</blockquote>
@@ -29,7 +30,7 @@
   <div class="row">
     <div class="col-12 col-md-6">
       <h3>Program options include:</h3>
-      <ul>
+      <ul> 
         <li>Turn-key rehabilitation programming</li>
         <li>Program management & consulting</li>
         <li>Staffing</li>
@@ -67,4 +68,4 @@
     </div>
   </div>
 </div>
-
+</section>

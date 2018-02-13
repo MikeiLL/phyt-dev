@@ -1,0 +1,31 @@
+<<<<<<< HEAD
+
+/* GLYPHICONS */
+.glyphicon {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+=======
+@media (min-width: map-get($breakpoints, medium)) {
+  .hero {
+    height:500px;
+  }
+}
+>>>>>>> 542bdb0bacb921a6a4b90b958397579ee365b62f
+
+
+
+
+<<<<<<< HEAD
+    @media only screen and (min-width:1025px) {
+      background-position:40% top; 
+    }
+=======
+>>>>>>> 542bdb0bacb921a6a4b90b958397579ee365b62f

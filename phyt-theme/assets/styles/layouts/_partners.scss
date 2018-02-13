@@ -1,0 +1,9 @@
+section.partners-content {
+	@include section-padding-top;
+	border:1px solid red;
+}
+
+h3.partners__program-title {
+	@include h2-h3-titles;
+
+}
