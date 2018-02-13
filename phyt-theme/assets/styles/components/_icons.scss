@@ -8,14 +8,17 @@
   color: $blueMain;
 }
 
-.hero-caret {
-  display: inline-block;
-  width: 6em;
-  height: 6em;
-  stroke-width: 0;
-  stroke: currentColor;
-  fill: currentColor;
-  font-size: 10em;
+.hero{
+  .ant-down {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: currentColor;
+    font-size: 4em;
+    color: white;
+  }
 }
 
 /* ==========================================
