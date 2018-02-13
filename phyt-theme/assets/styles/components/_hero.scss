@@ -13,8 +13,12 @@
 .hero-frontpage {
   background: url('../images/nurse_helping_patient_from_bed.jpg');
   background-position:45% top; /* mobile first*/
- // background-position:40% top; 
+    @media only screen and (min-width:1025px) {
+      background-position:40% top; 
+    }
 }
+
+
 
 .hero__wrapper {
   margin: 0 auto;
@@ -54,4 +58,18 @@
   background-color: $blueMain;
   border: none;
   height:3px;
+}
+
+
+/* GLYPHICONS */
+.glyphicon {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
