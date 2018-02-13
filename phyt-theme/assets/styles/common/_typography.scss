@@ -23,7 +23,7 @@ h1, h2, h3, h4, h5 {
 
 
 .content-title {
-  font-size: 4em;
+  //font-size: 4em;
 }
 
 .content-title {
@@ -38,8 +38,8 @@ h1, h2, h3, h4, h5 {
 .frontpage-contact__title, .frontpage-services__title {
   font-weight: 200;
   font-family: "Source Sans Pro", Arial, Helvetica, sans-serif;
-  font-size: 3rem; /* mobile first*/
-  font-size:3.5em;
+  //font-size: 3rem; /* mobile first*/
+  //font-size:3.5em;
   margin-bottom: 20px;
   text-align: center;
 }
@@ -49,7 +49,7 @@ h1, h2, h3, h4, h5 {
 }
 
 .frontpage-services h3 {
-  font-size: 2rem;
+  //font-size: 2rem;
   font-weight: 300;
 }
 
@@ -146,7 +146,7 @@ body, p { @include typi(base) }
   h1.entry-title {
     margin: 0.3em 0;
   }
-  time, p.author, p.byline {
+  time, p.author, p.byline { 
     margin: 0.3em 0;
   }
 }
