@@ -5,3 +5,11 @@ html {
   box-sizing: inherit;
 }
 
+a {
+	transition:all .4s;
+}
+
+a:hover {
+	text-decoration: none;
+	color:$amber !important;
+};

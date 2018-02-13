@@ -22,6 +22,7 @@
 }
 
 .hero-frontpage__title {
+  color:#fff;
   font-family: "Source Sans Pro", Arial, Helvetica, sans-serif;
   font-weight: 300;
   font-size: 5em;
@@ -30,7 +31,7 @@
   width: 90%
 }
 .hero__text {
-  font-family: Cabin, Arial, Helvetica, sans-serif;
+  
   font-size: 1.5rem;
 }
 .hero-careers {
@@ -44,6 +45,7 @@
   font-size: 1.4em;
   a {
     color: inherit;
+    text-decoration: none;
   }
 }
 

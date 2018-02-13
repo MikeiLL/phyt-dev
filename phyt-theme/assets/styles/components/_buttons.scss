@@ -8,6 +8,7 @@
 }
 .btn:hover {
 	background-color: $amber;
+	color:inherit;
 }
 
 .phyt-button {
@@ -26,5 +27,8 @@
 	font-size:18px;
 	letter-spacing: 1px;
 	padding:17px 40px;
+	&:hover {
+		color:#fff !important;
+	};
 
 }
