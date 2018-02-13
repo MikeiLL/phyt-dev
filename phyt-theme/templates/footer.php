@@ -2,13 +2,9 @@
   <div class="container">
     <div class="row">
       <div class="col-12 col-md-6">
-        <a class="navbar-brand" href="<?= esc_url(home_url('/')); ?>"><img alt="<?php bloginfo('name'); ?> logo" src="<?= get_template_directory_uri(); ?>/dist/images/phyt-logo.png"><span class="sr-only">Home</span></a>
-        <div>America's leading physical, occupational and speech therapy group.</div>
-      </div>
-      <div class="col-12 col-md-6">
         <div class="card text-white bg-info mb-3 text-center">
           <div class="card-block">
-            <p class="card-text">Contact Information</p>
+            <p class="card-text">Contact Phyt Rehab</p>
             <hr />
             <ul>
               <li>171 Kings Highway Brooklyn, NY 11223</li>
@@ -18,6 +14,11 @@
           </div>
         </div>
       </div>
+
+      <div class="col-12 col-md-6 clearfix">
+        <div class="float-right text-right">America's leading physical,<br /> occupational and speech <br/>therapy group. <p>#PhytSquad</p>SOCIAL LINKS</div>
+      </div>
+
     </div>
   </div>
 </footer>

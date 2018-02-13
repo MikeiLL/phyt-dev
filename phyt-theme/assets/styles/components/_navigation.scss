@@ -4,7 +4,7 @@
 	-ms-transition: all .2s;
 	-o-transition: all .2s;
 	-webkit-border-radius: 2px;
-	
+
 }
 
 
@@ -17,8 +17,8 @@
     font-weight: 300;
     font-size: 13px;
     margin: 0 .8em;
-    
-    line-height: 16px;    
+
+    line-height: 16px;
 	letter-spacing: 2px;
 	padding: 11px 23px !important;
 	text-transform: uppercase;
@@ -27,10 +27,14 @@
 	-ms-transition: all .2s;
 	-o-transition: all .2s;
 	-webkit-border-radius: 2px;
-	
+
 }
 
 #menu-primary-navigation li a:hover {
 	background-color: $amber !important;
 	color:#fff !important;
+}
+
+#menu-primary-navigation li.current-menu-item a {
+  background: $scrubGreen !important;
 }

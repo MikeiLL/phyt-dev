@@ -5,10 +5,10 @@
         <div class="frontpage-contact__form-wrapper">
           <h2 class="frontpage-contact__title">Get In Touch</h2>
           <hr class="front-page__hr frontpage-contact__hr" />
-          <p class="frontpage-contact__text">Learn more about our services, employment opportunities, and B2B solutions
+          <p class="frontpage-contact__text">Drop us a line at our headquarters in Brooklyn, New York.
           <div class="mx-auto">
               <?php get_template_part('templates/content', 'page'); ?>
-              
+
           </div>
         </div>
       </div>
