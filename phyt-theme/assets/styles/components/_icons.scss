@@ -1,10 +1,22 @@
 .icon {
   display: inline-block;
-  width: 1.5em;
-  height: 1.5em;
+  
   stroke-width: 0;
   stroke: currentColor;
   fill: currentColor;
+}
+
+.icon-hero-card {	
+	color:#fff;  
+	height: 1.2em;
+  	margin-right: 5px;
+  	padding-top: 5px;
+  	width: 1.2em;
+}
+
+.icon-footer {
+	width: 1.5em;
+  	height: 1.5em;
 }
 
 .hero-caret {
@@ -81,6 +93,6 @@ Single-colored icons can be modified like so:
 .icon-linkedin {
 	color:$linkedIn;
 }
-.icon:hover{
+.icon-footer:hover{
 	color:$amber;
 };

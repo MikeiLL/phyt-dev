@@ -13,11 +13,11 @@
         <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
           <div class="hero__card card text-white bg-info mb-3 text-center">
             <div class="card-block">
-              <p class="card-text"><span class="glyphicon glyphicon-time"></span><span class="oi" data-glyph="clock"></span>Call Us</p>
+              <p class="card-text"><svg class="icon icon-hero-card icon-phone"><use xlink:href="#icon-phone"></use></svg>Call Us</p>
               <hr />
               <p class="card-text"><a href="tel:+8885753483">Toll Free: 1.888.575.3483</a></p>
               <hr />
-              <p class="card-text">Join the #PhytSquad</p>
+              <p class="card-text"><a href="/careers">Join the #PhytSquad</a></p>
             </div>
           </div>
         </div>
