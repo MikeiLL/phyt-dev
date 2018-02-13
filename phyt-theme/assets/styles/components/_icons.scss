@@ -7,41 +7,8 @@
   color: $blueMain;
 }
 
-<<<<<<< HEAD
-.icon-hero-card {	
-	color:#fff;  
-	height: 1.2em;
-  	margin-right: 5px;
-  	padding-top: 5px;
-  	width: 1.2em;
-}
 
-.icon-footer {
-	width: 1.5em;
-  	height: 1.5em;
-}
 
-.hero-caret {
-  display: inline-block;
-  width: 1em;
-  height: 1em;
-  stroke-width: 0;
-  stroke: currentColor;
-  fill: currentColor;
-=======
-.hero{
-  .ant-down {
-    display: inline-block;
-    width: 1em;
-    height: 1em;
-    stroke-width: 0;
-    stroke: currentColor;
-    fill: currentColor;
-    font-size: 4em;
-    color: white;
-  }
->>>>>>> 59e2bde0b02d807d902bf100e3cf537779c9b24c
-}
 
 /* ==========================================
 Single-colored icons can be modified like so:
@@ -50,67 +17,4 @@ Single-colored icons can be modified like so:
   color: red;
 }
 ========================================== */
-<<<<<<< HEAD
 
-.arrows {
-	width: 60px;
-	height: 72px;
-	position: absolute;
-	left: 50%;
-	margin-left: -30px;
-	bottom: 20px;
-}
-
-.arrows path {
-	stroke: #2994D1;
-	fill: transparent;
-	stroke-width: 1px;
-	animation: arrow 2s infinite;
-	-webkit-animation: arrow 2s infinite;
-}
-
-@keyframes arrow
-{
-0% {opacity:0}
-40% {opacity:1}
-80% {opacity:0}
-100% {opacity:0}
-}
-
-@-webkit-keyframes arrow /*Safari and Chrome*/
-{
-0% {opacity:0}
-40% {opacity:1}
-80% {opacity:0}
-100% {opacity:0}
-}
-
-.arrows path.a1 {
-	animation-delay:-1s;
-	-webkit-animation-delay:-1s; /* Safari 和 Chrome */
-}
-
-.arrows path.a2 {
-	animation-delay:-0.5s;
-	-webkit-animation-delay:-0.5s; /* Safari 和 Chrome */
-}
-
-.arrows path.a3 {
-	animation-delay:0s;
-	-webkit-animation-delay:0s; /* Safari 和 Chrome */
-}
-
-.icon-facebook2 {
-	color: $fbBlue;
-}
-.icon-twitter {
-	color:$twitter;
-}
-.icon-linkedin {
-	color:$linkedIn;
-}
-.icon-footer:hover{
-	color:$amber;
-};
-=======
->>>>>>> 59e2bde0b02d807d902bf100e3cf537779c9b24c
