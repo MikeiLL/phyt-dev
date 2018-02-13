@@ -1,5 +1,114 @@
-.contact-frontpage {
+.card {
+	
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #aaa9a9;
+  font-size: .8em;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 2%;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #aaa9a9;
+  font-size: .8em;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 2%;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: #aaa9a9;
+  font-size: .8em;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 2%;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+  color: #aaa9a9;
+  font-size: .8em;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 2%;
+}
+
+
+
+
+/* SERVICES ..........*/
+.frontpage-services p {
+	font-size: 1.25em;
+	line-height: 2; 
+	margin:0 auto;
+	width:80%;
+}
+
+.frontpage-services__service {
+	padding-top: 40px;
+}
+
+/* CONTACT ..........*/
+.frontpage-contact {
   background: url('../images/nurse-desk-chair.jpg');
   margin-right: -15px;
   margin-left: -15px;
+  padding-top: 100px;
+}
+
+.frontpage-contact__title {
+	color:#fff;
+}
+.frontpage-contact__hr {
+	background-color: #fff;
+	height:2px;
+	width:50%;
+}
+.frontpage-contact__text {
+	font-size: 	1.25em;
+	line-height: 2;
+}
+
+.frontpage-contact__form-wrapper {
+	width:60%;
+	margin: 0 auto;
+	border: 0px solid red;
+
+	#wpcf7-f25-p4-o1, #wpcf7-f20-p1358-o1 {
+		label {
+			width: 100%;
+		}
+
+		input {
+			height:50px;
+			padding:0;
+
+		}
+
+		input, textarea {
+			background: transparent;
+			border-width:1px;
+			border-style:solid;
+			border-color:rgba(183,203,206,0.77);
+			border-radius: 2px;
+			color:#fff;    
+			padding-left: 2%;
+			letter-spacing: 2px;
+			width:100%;
+			transition:all .4s;
+			&:focus {
+				border-color:$amber;
+			};
+		}
+		input[type="submit"] {
+			background-color: $blueMain;
+			border: none;
+			color:rgba(255,255,255,.8);
+			font-family: Arial, Helvetica, sans-serif;
+			font-size: .85em;
+			letter-spacing: 2px; 
+
+			text-transform: uppercase;
+			width:100%;
+			&:hover {
+				background-color:$amber;
+			};
+		}
+
+	}	
 }

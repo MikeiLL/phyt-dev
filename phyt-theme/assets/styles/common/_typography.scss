@@ -1,3 +1,39 @@
+
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600');
+
+body {
+    font-size: 100%;
+}
+
+body, p { font-family: Museo-300; }
+
+h1, h2, h3, h4, h5 {
+/*  font-family: Museo-500;
+  font-weight: normal;
+  font-style: normal;
+  */
+  color:$blueMain;
+  font-family: "Source Sans Pro", Arial, Helvetica, sans-serif;
+}
+
+.frontpage-contact__title, .frontpage-services__title {
+  font-weight: 200;
+  font-family: "Source Sans Pro", Arial, Helvetica, sans-serif;
+  font-size: 3rem; /* mobile first*/
+  font-size:3.5em;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.frontpage__header {
+  text-align: center;
+}
+
+.frontpage-services h3 {
+  font-size: 2rem;
+  font-weight: 300;
+}
+
 .Museo-300 {
 	font-family: Museo-300;
 	font-weight: normal;
@@ -19,13 +55,7 @@
 	font-style: normal;
 }
 
-body, p { font-family: Museo-300; }
 
-h1, h2, h3, h4, h5 {
-	font-family: Museo-500;
-	font-weight: normal;
-	font-style: normal;
-}
 
 
 /* Modular Scale */
@@ -107,4 +137,4 @@ body, .entry-content p, .entry-summary p {
   @include typi-base();
 }
 
-@debug ms-list(-2, 4, $ms-base, $ms-ratio);
+//@debug ms-list(-2, 4, $ms-base, $ms-ratio);

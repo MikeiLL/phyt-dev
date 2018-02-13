@@ -1,0 +1,36 @@
+.nav-bar li{
+	-webkit-transition: all .2s;
+	-moz-transition: all .2s;
+	-ms-transition: all .2s;
+	-o-transition: all .2s;
+	-webkit-border-radius: 2px;
+	
+}
+
+
+
+#menu-primary-navigation li a {
+	background: $blueMain !important;
+	border-radius: 2px;
+	color: #fff;
+	font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 13px;
+    margin: 0 .8em;
+    
+    line-height: 16px;    
+	letter-spacing: 2px;
+	padding: 11px 23px !important;
+	text-transform: uppercase;
+	-webkit-transition: all .2s;
+	-moz-transition: all .2s;
+	-ms-transition: all .2s;
+	-o-transition: all .2s;
+	-webkit-border-radius: 2px;
+	
+}
+
+#menu-primary-navigation li a:hover {
+	background-color: $amber !important;
+	color:#fff !important;
+}

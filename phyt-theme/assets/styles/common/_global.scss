@@ -1,1 +1,15 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
 
+a {
+	transition:all .4s;
+}
+
+a:hover {
+	text-decoration: none;
+	color:$amber !important;
+};
