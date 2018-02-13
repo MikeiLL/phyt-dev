@@ -13,3 +13,22 @@ a:hover {
 	text-decoration: none;
 	color:$amber !important;
 };
+
+ul {
+	list-style-type: none;
+}
+
+ul.list-checkbox li:before {
+	color: $green;
+  content: '✓ ';
+}
+
+.box-shadow {
+	-webkit-box-shadow: 0 10px 6px -6px #777;
+	   -moz-box-shadow: 0 10px 6px -6px #777;
+	        box-shadow: 0 10px 6px -6px #777;
+	}
+
+.x-pad-top {  
+	padding-top: 50px;
+}	
