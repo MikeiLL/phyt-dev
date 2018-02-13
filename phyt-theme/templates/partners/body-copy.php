@@ -34,6 +34,7 @@
         <li>Program management & consulting</li>
         <li>Staffing</li>
       </ul>
+      <img src="<?= get_template_directory_uri(); ?>/dist/images/graph-chart.jpg" class="img-fluid" alt="Stock Graph Chart" />
     </div>
     <div class="col-12 col-md-6">
       <h3>We facilitate:</h3>
@@ -50,7 +51,8 @@
     </div>
   </div>
 
-    <div>
+   <div class="row">
+    <div class="col-12 col-md-6">
       <h3>Your #PhytSquad partners participate actively in:</h3>
 
       <ul>
@@ -60,5 +62,9 @@
         <li>General program development</li>
       </ul>
     </div>
+    <div class="col-12 col-md-6">
+        <img src="<?= get_template_directory_uri(); ?>/dist/images/nurse-on-phone.png" class="img-fluid" alt="Nurse on Phone" />
+    </div>
+  </div>
 </div>
 
