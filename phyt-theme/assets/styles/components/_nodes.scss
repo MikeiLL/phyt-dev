@@ -1,0 +1,45 @@
+// source: https://stackoverflow.com/a/30038170/2223106
+.node  {
+    width: 6em;
+    height: 6em;
+    border-radius: 50%;
+    font-size: .7em;
+    text-align: center;
+    position: relative;
+    span {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      -ms-transform: translate(-50%, -50%);
+      -webkit-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+  }
+}
+
+.node-blue {
+  background: $blueMain;
+}
+
+.node-green {
+  background: $scrubGreen;
+}
+
+.node-violet {
+  background: $violet;
+}
+
+@media (min-width: map-get($breakpoints, small)) {
+  .node  {
+      width: 9em;
+      height: 9em;
+      font-size: .9em;
+  }
+}
+
+@media (min-width: map-get($breakpoints, medium)) {
+  .node  {
+      width: 12em;
+      height: 12em;
+      font-size: 1.2em;
+  }
+}
