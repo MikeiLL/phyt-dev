@@ -6,7 +6,7 @@
     <div class="hero__wrapper">
       <div class="row align-items-center py-4">
         <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
-          <h1 class="hero-frontpage__title">What Matters Most Is Results</h1>
+          <h1 class="hero-title hero-frontpage__title">What Matters Most Is Results</h1>
           <p class="hero__text">With over 35 years experience, we work with <em>patients</em> and <em>partners</em> to develop and manage individualized physical, occupational and speech therapy programs.</p>
           <p><a href="#" class="btn btn-primary btn-large hero__btn-learn-more">Learn more »</a></p>
         </div>
