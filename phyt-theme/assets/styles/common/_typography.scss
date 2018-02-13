@@ -19,7 +19,8 @@ h1, h2, h3, h4, h5 {
 .frontpage-contact__title, .frontpage-services__title {
   font-weight: 200;
   font-family: "Source Sans Pro", Arial, Helvetica, sans-serif;
-  font-size: 3.5rem;
+  font-size: 3rem; /* mobile first*/
+  font-size:3.5em;
   margin-bottom: 20px;
   text-align: center;
 }

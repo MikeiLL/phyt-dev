@@ -27,6 +27,8 @@
 	font-size:18px;
 	letter-spacing: 1px;
 	padding:17px 40px;
+	width:100%; /* mobile first */
+	/* width:auto; */
 	&:hover {
 		color:#fff !important;
 	};
