@@ -4,7 +4,7 @@
       <blockquote>Wanting to go home. Yearning to be back to your old self, able to do all the things you used to do on your own. We know.</blockquote>
     </div>
     <div class="col-8">
-      <p>When you’re well enough to qualify as a patient in an outstanding rehabilitation center–the quality of facilities that Phyt partners with–you are not just taken care of, you are cared for. Our experienced, informed therapists, the #PhytSquad, work patiently to help clients regain their capabilities to their maximum potential.</p>
+      <p>When you’re well enough to qualify as a patient in an outstanding rehabilitation center–the quality of facilities that Phyt partners with–you are not just taken care of, you are cared for. Our experienced, informed therapists, the #PhytSquad, work patiently to help clients regain facilities to their maximum potential.</p>
 
       <p>Over more than three decades, Phyt have partnered with hundreds of and helped thousands of patients face challenges in the following three fields:</p>
     </div>
