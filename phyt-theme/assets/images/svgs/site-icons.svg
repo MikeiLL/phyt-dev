@@ -57,5 +57,9 @@
 <title>plus</title>
 <path d="M31 12h-11v-11c0-0.552-0.448-1-1-1h-6c-0.552 0-1 0.448-1 1v11h-11c-0.552 0-1 0.448-1 1v6c0 0.552 0.448 1 1 1h11v11c0 0.552 0.448 1 1 1h6c0.552 0 1-0.448 1-1v-11h11c0.552 0 1-0.448 1-1v-6c0-0.552-0.448-1-1-1z"></path>
 </symbol>
+<symbol viewBox="0 0 1200 1000" aria-labelledby="cisi-bootstrap-envelope-title" id="si-bootstrap-envelope">
+<title id="cisi-bootstrap-envelope-title">icon envelope</title>
+<path d="M25 0h1150q10 0 12.5 5t-5.5 13L618 585q-8 8-18 8t-18-8L18 18q-8-8-5.5-13T25 0zm-7 218l264 264q8 8 8 18t-8 18L18 782q-8 8-13 5.5T0 775V225q0-10 5-12.5t13 5.5zm900 264l264-264q8-8 13-5.5t5 12.5v550q0 10-5 12.5t-13-5.5L918 518q-8-8-8-18t8-18zM818 618l364 364q8 8 5.5 13t-12.5 5H25q-10 0-12.5-5t5.5-13l364-364q8-8 18-8t18 8l164 164q8 8 18 8t18-8l164-164q8-8 18-8t18 8z"/>
+</symbol>
 </defs>
 </svg>
