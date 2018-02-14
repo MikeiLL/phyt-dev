@@ -1,5 +1,4 @@
 
-@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600');
 
 body {
     font-size: 100%;
@@ -7,9 +6,8 @@ body {
 
 body, p { font-family: Museo-300; }
 
-h1, h2, h3, h4, h5 {
+h2, h3, h4, h5 {
   color:$blueMain;
-  font-family: "Source Sans Pro", Arial, Helvetica, sans-serif;
 }
 
 .hero-title {
@@ -20,14 +18,12 @@ h1, h2, h3, h4, h5 {
 .content-title {
   color:$blueMain !important;
   font-weight: 200;
-  font-family: "Source Sans Pro", Arial, Helvetica, sans-serif;
   margin-bottom: 20px;
   text-align: center;
 }
 
 .frontpage-contact__title, .frontpage-services__title {
   font-weight: 200;
-  font-family: "Source Sans Pro", Arial, Helvetica, sans-serif;
   margin-bottom: 20px;
   text-align: center;
 }
@@ -115,8 +111,8 @@ $typi: (
       ),
 
     hero-title-map: (
-      null: (ms(0), 1.5),
-      small: (ms(0), 1.7),
+      null: (ms(1), 1.5),
+      small: (ms(1), 1.7),
       medium: (ms(0), 1.8),
       large: (ms(0), 1.5)
       ),
