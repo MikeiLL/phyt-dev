@@ -9,6 +9,12 @@
   margin-right: -15px;
 }
 
+@media (min-width: map-get($breakpoints, medium)) {
+  .hero {
+    min-height:500px;
+  }
+}
+
 .hero-frontpage {
   background: url('../images/nurse_helping_patient_from_bed.jpg') center top no-repeat;
   background-position:45% top; /* mobile first*/
@@ -21,18 +27,16 @@
 }
 
 .hero-frontpage__title {
+  @include typi(hero-title-map);
   color:#fff;
   font-family: "Source Sans Pro", Arial, Helvetica, sans-serif;
   font-weight: 300;
-  font-size: 5em;
   line-height: 1;
   letter-spacing: 0px;
   width: 90%
 }
 
-.hero__text {
-  font-size: 1.5rem;
-}
+.hero__text { @include typi(hero-copy-map) }
 
 .hero-careers {
   background: url('../images/happy-caregivers.jpg') center top no-repeat;

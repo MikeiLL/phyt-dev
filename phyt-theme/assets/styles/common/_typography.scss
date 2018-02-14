@@ -8,38 +8,26 @@ body {
 body, p { font-family: Museo-300; }
 
 h1, h2, h3, h4, h5 {
-/*  font-family: Museo-500;
-  font-weight: normal;
-  font-style: normal;
-  */
   color:$blueMain;
   font-family: "Source Sans Pro", Arial, Helvetica, sans-serif;
-} 
+}
 
 .hero-title {
   //font-size: 4.5em;
-  opacity:.85;  
-}
-
-
-.content-title {
-  font-size: 4em;
+  opacity:.85;
 }
 
 .content-title {
-  color:$blueMain !important;  
+  color:$blueMain !important;
   font-weight: 200;
   font-family: "Source Sans Pro", Arial, Helvetica, sans-serif;
-  
   margin-bottom: 20px;
-  text-align: center; 
+  text-align: center;
 }
 
 .frontpage-contact__title, .frontpage-services__title {
   font-weight: 200;
   font-family: "Source Sans Pro", Arial, Helvetica, sans-serif;
-  font-size: 3rem; /* mobile first*/
-  font-size:3.5em;
   margin-bottom: 20px;
   text-align: center;
 }
@@ -49,7 +37,6 @@ h1, h2, h3, h4, h5 {
 }
 
 .frontpage-services h3 {
-  font-size: 2rem;
   font-weight: 300;
 }
 
@@ -125,16 +112,28 @@ $typi: (
       small: (ms(-1), 1.2),
       medium: (ms(0), 1.2),
       large: (ms(0), 1.3)
+      ),
+
+    hero-title-map: (
+      null: (ms(0), 1.5),
+      small: (ms(0), 1.7),
+      medium: (ms(0), 1.8),
+      large: (ms(0), 1.5)
+      ),
+
+    hero-copy-map: (
+      null: (ms(-1), .9),
+      small: (ms(-1), 1),
+      medium: (ms(0), 1.1),
+      large: (ms(0), 1.3)
       )
 );
-
 
 h1 { @include typi(h1-map) }
 h2 { @include typi(h2-map) }
 h3 { @include typi(h3-map) }
 h4 { @include typi(h4-map) }
 body, p { @include typi(base) }
-
 
 /* Media Queries */
 
@@ -152,7 +151,6 @@ body, p { @include typi(base) }
 }
 
 body, .entry-content p, .entry-summary p {
-  //@include font-size($p-font-sizes);
   @include typi-base();
 }
 
