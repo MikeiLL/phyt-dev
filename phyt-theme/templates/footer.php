@@ -2,15 +2,16 @@
   <div class="container-fluid">
     <div class="row">
       <div class="col-12 col-md-6">
-        <div class="card text-gray mb-3 text-center">
-          <div class="card-block">
-            <p class="card-text">Come See Us</p>
-            <hr />
-            <ul>
-              <li>171 Kings Highway Brooklyn, NY 11223</li>
-              <li>1.888.575.3483</li>
-              <li>info@phytrehab.com</li>
-            </ul>
+        <div class="card text-center">
+          <div class="card-body"  itemprop="location" itemscope itemtype="http://schema.org/Place">
+            <h6 class="card-subtitle">Phyt Rehab</h6>
+              <div class="address" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+                <span itemprop="streetAddress">171 Kings Highway</span><br />
+                <span itemprop="addressLocality">Brooklyn</span>,
+                <span itemprop="addressRegion">NY</span>
+                <span itemprop="postalCode">11223</span><br />
+                <span itemprop="email">info@phytrehab.com</span>
+              </div>
           </div>
         </div>
       </div>

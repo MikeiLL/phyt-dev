@@ -7,4 +7,15 @@
 .footer-social li {
 	display: inline-block;
 	margin-left: 7px;
-}   
+}
+
+.content-info {
+  .card {
+    background: $scrubGreen;
+    font-family: sans-serif, helvetica, arial;
+    color: white;
+    h5, h6 {
+      color: white !important;
+    }
+  }
+}
