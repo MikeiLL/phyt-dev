@@ -2,8 +2,7 @@
   "dependencies": {
     "main.js": {
       "files": [
-        "scripts/main.js",
-        "scripts/MyFontsWebfontsKit.js"
+        "scripts/main.js"
       ],
       "main": true
     },
