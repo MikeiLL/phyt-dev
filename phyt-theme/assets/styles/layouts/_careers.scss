@@ -1,0 +1,41 @@
+section.careers__main, section.careers__locator {
+	@include sec-padding-top;
+}
+
+.simple-locator-form {
+	display: block;
+	margin:0 auto;
+	width: 70%;
+
+}
+
+h2.careers_job-app-title {
+	clear:both;
+	display: block;
+	margin-bottom: 30px;
+	text-align: center;
+	width: 100%
+}
+
+#wpcf7-f1070-p8-o1 {
+
+	label {
+		margin: 0 auto;
+		position: relative;
+		display: block;
+		width: 70%;
+	}
+	input, textarea {
+		border-radius:2px;
+		border:1px solid #ccc;
+		width: 100%;
+
+	}
+
+}
+
+
+
+
+
+

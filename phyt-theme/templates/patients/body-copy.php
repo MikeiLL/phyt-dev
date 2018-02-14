@@ -1,3 +1,4 @@
+<section class="patients-main">
 <div class="container">
   <div class="row border border-light">
     <div class="col-8">
@@ -12,7 +13,8 @@
     <div class="col-4">
       <img src="<?= get_template_directory_uri(); ?>/dist/images/patients-icon.png" class="img-fluid" alt="Phyt Icon with Inlaid Photos" />
     </div>
-
+  </section>
+  <section class="patients-therapy">
   <div class="row border border-light">
     <div class="col-12 col-md-4">
       <h3>Physical Therapy</h3>
@@ -30,3 +32,4 @@
 </div>
 
 <h3 class="">Contact us today to learn more about how our services can work for you.</h3>
+</section>

@@ -12,6 +12,13 @@
 .ant-down {
   height:40px;
   width:40px;
+  animation-name: angle-down;
+  animation-duration: .5s; 
+  animation-timing-function: cubic-bezier(1,.5,.87,1.31);
+  animation-delay: 1s;
+  animation-direction: normal;
+  animation-iteration-count: 1;
+  
 }
 
 @media (min-width: map-get($breakpoints, medium)) {
@@ -32,6 +39,7 @@
 
 .hero-frontpage__title {
   //@include typi(hero-title-map);
+  font-family: 'Museo-500';   
   font-size:2.75rem;  
   letter-spacing: 0px;
   width: 90%; 
@@ -136,6 +144,7 @@
 .hero-careers {
   background: url('../images/happy-caregivers.jpg') center top no-repeat;
   background-position: cover;
+  padding-top: 40px;
 }
 
 .hero-partners {
@@ -144,6 +153,12 @@
                 rgba(20, 20, 20, 0.45)
               ), url('../images/medical-cooperation.jpg') center center no-repeat;
   background-size: 750px;
+}
+
+.hero-careers__title {
+  font-family: 'Museo-500';   
+  font-size:2.75rem;  
+  letter-spacing: 0px;
 }
 
 .hero__card {
