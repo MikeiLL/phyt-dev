@@ -31,13 +31,105 @@
 } 
 
 .hero-frontpage__title {
-  @include typi(hero-title-map);
-  color:#fff;
+  //@include typi(hero-title-map);
+  font-size:2.75rem;  
   letter-spacing: 0px;
   width: 90%; 
 }
 
-.hero__text { @include typi(hero-copy-map) }
+.hero__text { 
+  //@include typi(hero-copy-map); 
+  font-size:1.4rem;
+   }
+
+ .card-text-b {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.15rem;
+}
+
+.icon-phone {
+  position: relative;
+  top:3px;
+  height:20px;
+  width:20px;
+  border:0px solid red;
+}  
+
+@media screen and (min-width: 550px) and (max-width: 767px) {
+  .hero-frontpage__title {
+    //@include typi(hero-title-map);
+    font-size:3rem;  
+    letter-spacing: 0px;
+    width: 90%; 
+  }
+    .hero__text { 
+    //@include typi(hero-copy-map); 
+    font-size:1.5rem;
+     }
+
+  .card-text-b {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .hero-frontpage__title {
+    //@include typi(hero-title-map);
+    font-size:3rem;  
+    letter-spacing: 0px;
+    width: 90%; 
+  }
+    .hero__text { 
+    //@include typi(hero-copy-map); 
+    font-size:1.5rem;
+     }
+
+  .card-text-b {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  /*
+  .hero-frontpage__title {
+    @include typi(hero-title-map);
+    font-size:3rem;  
+    letter-spacing: 0px;
+    width: 90%; 
+  }
+    .hero__text { 
+    @include typi(hero-copy-map); 
+    font-size:1.5rem;
+     }
+*/
+  .card-text-b {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.1rem;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .hero-frontpage__title {
+    //@include typi(hero-title-map);
+    font-size:4rem;  
+    letter-spacing: 0px;
+    width: 90%; 
+  }
+    .hero__text { 
+    //@include typi(hero-copy-map); 
+    font-size:1.75rem;
+     }
+
+  .card-text-b {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.1rem;
+  }
+}
+
+
+
 
 
 /* CAREERS */
