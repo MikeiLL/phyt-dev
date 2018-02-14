@@ -2,6 +2,19 @@
 
 }
 
+.card-text {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.4em;
+}
+
+.icon-phone {
+	position: relative;
+	top:3px;
+	height:20px;
+	width:20px;
+	border:0px solid red;
+}
+
 ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
   color: #aaa9a9;
   font-family: Arial, Helvetica, sans-serif;
@@ -25,13 +38,34 @@
 }
 
 /* SERVICES ..........*/
+h2.frontpage-services__title {
+	@include typi(h2-map);
+}
+
+
+
 .frontpage-services p {
-	margin:0 auto;
-	width:80%;
+	font-size: 1.25rem;
+	margin:0px auto;
+	width:100%;
+}
+
+@media screen and (min-width:860px) {
+	.frontpage-services p {
+		width:90%;
+	}
+}
+
+h3.frontpage__header {
+	@include typi(h3-map);	
 }
 
 .frontpage-services__service {
 	padding-top: 40px;
+}
+
+.frontpage-services__service p {
+	margin:0px auto 40px auto;	
 }
 
 /* CONTACT ..........*/
@@ -44,7 +78,8 @@
 
 .frontpage-contact__title {
 	color:#fff;
-}
+	
+} 
 .frontpage-contact__hr {
 	background-color: #fff;
 	height:2px;
