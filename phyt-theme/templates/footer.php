@@ -1,10 +1,10 @@
 <footer class="content-info py-2">
-  <div class="container">
+  <div class="container-fluid">
     <div class="row">
       <div class="col-12 col-md-6">
-        <div class="card text-white bg-info mb-3 text-center">
+        <div class="card text-gray mb-3 text-center">
           <div class="card-block">
-            <p class="card-text">Contact Phyt Rehab</p>
+            <p class="card-text">Come See Us</p>
             <hr />
             <ul>
               <li>171 Kings Highway Brooklyn, NY 11223</li>
