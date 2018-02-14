@@ -23,20 +23,19 @@
 .hero__wrapper {
   margin: 0 auto;
   width: 90%;
-
-}
+} 
 
 .hero-frontpage__title {
   @include typi(hero-title-map);
   color:#fff;
-  font-weight: 300;
-  line-height: 1;
   letter-spacing: 0px;
   width: 90%
 }
 
 .hero__text { @include typi(hero-copy-map) }
 
+
+/* CAREERS */
 .hero-careers {
   background: url('../images/happy-caregivers.jpg') center top no-repeat;
   background-position: cover;
