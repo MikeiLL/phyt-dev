@@ -1,4 +1,4 @@
-<section class="frontpage-services frontpage-section container py-2">
+<section class="frontpage-services frontpage-section container-fluid py-2">
   <div class="frontpage-services__wrapper">
   <h2 class="frontpage-services__title">Our Services</h2>
     <p>
