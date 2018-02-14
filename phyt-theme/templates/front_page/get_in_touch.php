@@ -5,7 +5,7 @@
         <div class="frontpage-contact__form-wrapper">
           <h2 class="frontpage-contact__title">Get In Touch</h2>
           <hr class="front-page__hr frontpage-contact__hr" />
-          <p class="frontpage-contact__text">Drop a line to our headquarters in Brooklyn, New York.
+          <p class="frontpage-contact__text">Drop us a line and we'll be in touch.
           <div class="mx-auto">
               <?php get_template_part('templates/content', 'page'); ?>
 
