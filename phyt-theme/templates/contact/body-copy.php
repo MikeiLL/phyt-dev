@@ -20,7 +20,7 @@
         <span itemprop="postalCode">11223</span>
       </div>
 
-      <div itemprop="email"><svg class="icon icon-info"><use xlink:href="#icon-info"></use></svg> info@phytrehab.com</div>
+      <div itemprop="email"><svg class="icon si-bootstrap-envelope"><use xlink:href="#si-bootstrap-envelope"></use></svg> info@phytrehab.com</div>
 
       DEPARTMENTS
       <ul id="reveal">
@@ -33,7 +33,7 @@
         <hr />
         <li class="" role="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"><svg class="icon icon-plus"><use xlink:href="#icon-plus"></use></svg> Recruitment</li>
         <div id="collapseTwo" itemscope itemtype="http://schema.org/Person" class="collapse" aria-labelledby="headingOne" data-parent="#reveal">
-          <span itemprop="name">Mercenda Boyd</span>
+          <span itemprop="name"><strong>Mercenda</strong> Boyd</span>
           Phone: (718) 434-5100 ext.2320
           Fax: (718) 872-1810
           Email: mboyd@phytrehab.com

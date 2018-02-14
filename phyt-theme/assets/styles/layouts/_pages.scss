@@ -1,4 +1,11 @@
 /* Contact Us */
-.contact-page .col-sm-4 {
-  padding: 1em 2em;
+.contact-page {
+
+  .col-sm-4 {
+    padding: 1em 2em;
+    font-family: $font-family-sans-serif;
+  }
+
+  .icon { margin-right: 1.2em; }
+  .icon-location { height: 2em; float: left;}
 }
