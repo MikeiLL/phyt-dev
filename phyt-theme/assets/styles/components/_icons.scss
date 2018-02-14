@@ -12,7 +12,17 @@
 
 .icon-footer {
 	width: 1.5em;
-  	height: 1.5em;
+  height: 1.5em;
+}
+
+#reveal svg {
+	width: 1em;
+  height: 1em;
+  cursor: pointer;
+  color: $gray-100;
+  border: 1px solid purple;
+  padding: .2em;
+  background: $gray-900;
 }
 
 .hero-caret {
