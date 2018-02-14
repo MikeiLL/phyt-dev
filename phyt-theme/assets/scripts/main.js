@@ -78,27 +78,28 @@
   // source: https://stackoverflow.com/a/9359619/2223106
   // source: https://stackoverflow.com/a/12749875/2223106
   // source: https://stackoverflow.com/a/14805098/2223106
-  var outer = $('.hero');  //record the elem so you don't crawl the DOM everytime
-  var bottom = outer.position().top + outer.outerHeight(true);
-  $("a#jumpdown").on('click', function(e) {
+  if ($('.hero').length){
+    var outer = $('.hero');  //record the elem so you don't crawl the DOM everytime
+    var bottom = outer.position().top + outer.outerHeight(true);
+    $("a#jumpdown").on('click', function(e) {
 
-   // prevent default anchor click behavior
-   e.preventDefault();
+     // prevent default anchor click behavior
+     e.preventDefault();
 
-   // store hash
-   var hash = this.hash;
-    var completeCalled = false;
-    $("html, body").animate(
-        { scrollTop: $(hash).offset().top - 100 },
-        {
-            complete : function(){
-                if(!completeCalled){
-                    completeCalled = true;
-                }
-            }
-        }
-    );
-
-});
+     // store hash
+     var hash = this.hash;
+      var completeCalled = false;
+      $("html, body").animate(
+          { scrollTop: $(hash).offset().top - 100 },
+          {
+              complete : function(){
+                  if(!completeCalled){
+                      completeCalled = true;
+                  }
+              }
+          }
+      );
+  });
+}
 
 })(jQuery); // Fully reference jQuery after this point.
