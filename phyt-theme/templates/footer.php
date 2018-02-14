@@ -3,8 +3,8 @@
     <div class="row">
       <div class="col-12 col-md-6">
         <div class="card text-center">
-          <div class="card-body"  itemprop="location" itemscope itemtype="http://schema.org/Place">
-            <h6 class="card-subtitle">Phyt Rehab</h6>
+          <div class="card-body" itemscope itemtype="http://schema.org/MedicalOrganization">
+            <h6 class="card-subtitle" itemprop="name">Phyt Rehab</h6>
               <div class="address" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
                 <span itemprop="streetAddress">171 Kings Highway</span><br />
                 <span itemprop="addressLocality">Brooklyn</span>,
