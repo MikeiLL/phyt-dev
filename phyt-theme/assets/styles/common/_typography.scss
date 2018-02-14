@@ -1,6 +1,55 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 // @import url('https://fonts.googleapis.com/css?family=Raleway:400,400i,500,500i,600,600i,700,700i');
 
+@font-face {
+  font-family: 'Museo-100';
+  src: url('../fonts/35CFB9_0_0.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/35CFB9_0_0.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/35CFB9_0_0.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/35CFB9_0_0.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/35CFB9_0_0.ttf')  format('truetype'), /* Safari, Android, iOS */
+}
+@font-face {
+  font-family: 'Museo-100Italic';
+  src: url('../fonts/35CFB9_1_0.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/35CFB9_1_0.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/35CFB9_1_0.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/35CFB9_1_0.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/35CFB9_1_0.ttf')  format('truetype'), /* Safari, Android, iOS */
+}
+@font-face {
+  font-family: 'Museo-300';
+  src: url('../fonts/35CFB9_2_0.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/35CFB9_2_0.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/35CFB9_2_0.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/35CFB9_2_0.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/35CFB9_2_0.ttf')  format('truetype'), /* Safari, Android, iOS */
+}
+@font-face {
+  font-family: 'Museo-300Italic';
+  src: url('../fonts/35CFB9_3_0.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/35CFB9_3_0.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/35CFB9_3_0.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/35CFB9_3_0.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/35CFB9_3_0.ttf')  format('truetype'), /* Safari, Android, iOS */
+}
+@font-face {
+  font-family: 'Museo-500';
+  src: url('../fonts/35CFB9_4_0.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/35CFB9_4_0.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/35CFB9_4_0.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/35CFB9_4_0.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/35CFB9_4_0.ttf')  format('truetype'), /* Safari, Android, iOS */
+}
+@font-face {
+  font-family: 'Museo-500Italic';
+  src: url('../fonts/35CFB9_5_0.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/35CFB9_5_0.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/35CFB9_5_0.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/35CFB9_5_0.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/35CFB9_5_0.ttf')  format('truetype'), /* Safari, Android, iOS */
+}
+
 
 .Museo-100 {
 	font-family: Museo-100;
@@ -49,7 +98,7 @@ body {
     font-size: 100%;
 }
 
-body, p { font-family: Museo-100; }
+body, p { font-family: $font-family-base; }
 
 h2, h3, h4, h5 {
   color:$blueMain;
