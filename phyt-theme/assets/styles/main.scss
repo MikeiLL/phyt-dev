@@ -11,6 +11,8 @@
 @import "common/typography";
 @import "common/layout";
 @import "common/mixins";
+@import "common/animations";
+
 
 @import "components/navigation";
 @import "components/buttons";
@@ -31,3 +33,4 @@
 @import "layouts/frontpage";
 @import "layouts/careers";
 @import "layouts/partners";
+@import "layouts/patients";
