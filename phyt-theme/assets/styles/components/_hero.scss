@@ -9,6 +9,11 @@
   margin-right: -15px;
 }
 
+.ant-down {
+  height:40px;
+  width:40px;
+}
+
 @media (min-width: map-get($breakpoints, medium)) {
   .hero {
     min-height:500px;
