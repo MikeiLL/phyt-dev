@@ -10,47 +10,50 @@
     <div class="col-12 col-sm-4 bg-light" >
       <h2>GENERAL INQUIRIES</h2>
 
-      <h3 itemprop="phone">1.888.575.3483</h3>
+      <div itemprop="phone"><svg class="icon icon-phone"><use xlink:href="#icon-phone"></use></svg> 1.888.575.3483</div>
 
       <div class="address" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+      <svg class="icon icon-location"><use xlink:href="#icon-location"></use></svg>
         <span itemprop="streetAddress">171 Kings Highway</span><br />
         <span itemprop="addressLocality">Brooklyn</span>,
         <span itemprop="addressRegion">NY</span>
-        <span itemprop="postalCode">11223</span><br />
-        <span itemprop="email">info@phytrehab.com</span>
+        <span itemprop="postalCode">11223</span>
       </div>
 
+      <div itemprop="email"><svg class="icon icon-info"><use xlink:href="#icon-info"></use></svg> info@phytrehab.com</div>
 
       DEPARTMENTS
       <ul id="reveal">
         <li class="" role="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne"><svg class="icon icon-plus"><use xlink:href="#icon-plus"></use></svg> Business Inquiries</li>
-        <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#reveal">
-          Daisy Stephen, Vice President
+        <div id="collapseOne" itemscope itemtype="http://schema.org/Person" class="collapse" aria-labelledby="headingOne" data-parent="#reveal">
+          <span itemprop="name">Daisy Stephen</span>, Vice President
           Phone: 914.837.6538
           Email: daisy@phytrehab.com
         </div>
-        <li class="" role="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo"><svg class="icon icon-plus"><use xlink:href="#icon-plus"></use></svg> Recruitment</li>
-        <div id="collapseTwo" class="collapse" aria-labelledby="headingOne" data-parent="#reveal">
-          Mercenda Boyd
+        <hr />
+        <li class="" role="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"><svg class="icon icon-plus"><use xlink:href="#icon-plus"></use></svg> Recruitment</li>
+        <div id="collapseTwo" itemscope itemtype="http://schema.org/Person" class="collapse" aria-labelledby="headingOne" data-parent="#reveal">
+          <span itemprop="name">Mercenda Boyd</span>
           Phone: (718) 434-5100 ext.2320
           Fax: (718) 872-1810
           Email: mboyd@phytrehab.com
         </div>
-
-        <li class="" role="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree"><svg class="icon icon-plus"><use xlink:href="#icon-plus"></use></svg> Human Resources</li>
-        <div id="collapseThree" class="collapse" aria-labelledby="headingOne" data-parent="#reveal">
-          Michelle Falotico
+        <hr />
+        <li class="text-middle" role="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree"><svg class="icon icon-plus"><use xlink:href="#icon-plus"></use></svg> Human Resources</li>
+        <div id="collapseThree" itemscope itemtype="http://schema.org/Person" class="collapse" aria-labelledby="headingOne" data-parent="#reveal">
+          <span itemprop="name">Michelle Falotico</span>
           Phone: 718-434-5100 extension 2326
           Email: mfalotico@phytrehab.com
         </div>
-
-        <li class="" role="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour"><svg class="icon icon-plus"><use xlink:href="#icon-plus"></use></svg> Corporate Office</li>
+        <hr />
+        <li class="" role="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour"><svg class="icon icon-plus"><use xlink:href="#icon-plus"></use></svg> Corporate Office</li>
         <div id="collapseFour" class="collapse" aria-labelledby="headingOne" data-parent="#reveal">
             Phyt Rehab
             171 Kings Highway
             Brooklyn, NY 11223
             Toll Free: 1.888.575.3483
         </div>
+        <hr />
       </ul>
     </div>
   </div>

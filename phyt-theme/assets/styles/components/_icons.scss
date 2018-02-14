@@ -15,14 +15,22 @@
   height: 1.5em;
 }
 
-#reveal svg {
-	width: 1em;
+.contact-page svg {
+  width: 1em;
   height: 1em;
-  cursor: pointer;
-  color: $gray-100;
-  border: 1px solid purple;
-  padding: .2em;
-  background: $gray-900;
+  margin-left: -.6em;
+}
+
+#reveal {
+  svg {
+    width: 1em;
+    height: 1em;
+    cursor: pointer;
+    color: $gray-100;
+    padding: .2em;
+    background: $gray-900;
+    vertical-align: middle;
+  }
 }
 
 .hero-caret {
