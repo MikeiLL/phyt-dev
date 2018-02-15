@@ -9,6 +9,38 @@
   margin-right: -15px;
 }
 
+@media (min-width: map-get($breakpoints, medium)) {
+  .hero {
+    min-height:500px;
+    
+  }
+}
+
+.hero__wrapper {
+  margin: 0 auto;
+  width: 90%;
+    @media (min-width:992px) {
+      padding-top:40px;  
+    }
+  }
+
+.hero-frontpage {
+  background: url('../images/nurse_helping_patient_from_bed.jpg') center top no-repeat;
+  background-position:30% top; /* mobile first*/
+  //background-size: 120% !important;
+  background-size: cover;
+}
+
+.hero-frontpage__title {
+  color:#fff;
+}
+
+.hero-frontpage__title {
+  //font-size:4.5rem !important;
+  letter-spacing: 0px;
+  width: 90%;
+}
+
 .ant-down {
   height:50px;
   width:50px;
@@ -21,53 +53,135 @@
 
 }
 
-@media (min-width: map-get($breakpoints, medium)) {
-  .hero {
-    min-height:500px;
-    h1 {
-      color: white;
-    }
+.hero__text {
+  
+  }
+
+.card-text-b {
+ 
+ }
+
+@media (min-width: 0) and (max-width: 374px) {
+  .hero-frontpage__title {
+    font-size:2rem !important;
+    margin-top: 0;
+  }
+  .hero__text {
+    font-size: 1.2rem !important; /* mobile first */
+    line-height: 1.4; /* mobile first */
+  } 
+  
+  .card-text-b {
+    font-size: .95rem !important;
   }
 }
 
-.hero-frontpage {
-  background: url('../images/nurse_helping_patient_from_bed.jpg') center top no-repeat;
-  background-position:30% top; /* mobile first*/
-  background-size: 120% !important;
+@media (min-width:375px) and (max-width: 479px) {
+  .hero-frontpage__title {
+    font-size:2.5rem !important;
+    margin-top: 0;
+  }
+  .hero__text {
+    font-size: 1.4rem; 
+    line-height: 1.4; 
+  }
+  
+  .card-text-b {
+    font-size: 1.1rem !important;
+  }
 }
 
-.hero__wrapper {
-  margin: 0 auto;
-  padding-top:40px;
-  width: 90%;
+@media (min-width:480px) and (max-width: 580px) {
+  .hero-frontpage__title {
+    font-size:3rem !important;
+    margin-top: 0;
+  }
+  .hero__text {
+    font-size: 1.4rem;
+    line-height: 1.4; 
+  }
+  
+  .card-text-b {
+    font-size: 1.3rem !important;
+  }
 }
 
-.hero__title {
-  font-size: 3.5rem;
-  font-weight: bold;
+@media (min-width:581px) and (max-width: 685px) {
+  .hero-frontpage__title {
+    font-size:3.6rem !important;
+    margin-top: 0;
+  }
+  .hero__text {
+    font-size: 1.4rem; 
+    line-height: 1.4; 
+  }
+  
+  .card-text-b {
+    font-size: 1.3rem !important;
+  }
+}
+@media (min-width:686px) and (max-width: 768px) {
+  .hero-frontpage__title {
+    font-size:3.9rem !important;
+    margin-top: 0;
+  }
+  .hero__text {
+    font-size: 1.4rem;
+    line-height: 1.4; 
+  }
+  
+  .card-text-b {
+    font-size: 1.5rem !important;
+  }
 }
 
-.hero-frontpage__title {
-  //@include typi(hero-title-map);
-
-
-  font-size:4.5rem !important;
-  font-family: 'Museo-500';  
-
-
-  letter-spacing: 0px;
-  width: 90%;
+@media (min-width:769px) and (max-width: 991px) {
+  .hero-frontpage__title {
+    font-size:3.5rem !important;
+    margin-top: 0;
+  }
+  .hero__text {
+    font-size: 1.3rem;
+    line-height: 1.4; 
+  }
+  
+  .card-text-b {
+    font-size: .9rem !important;
+  }
 }
 
-.hero__text {
-  //@include typi(hero-copy-map);
-  font-family: 'Museo-300';
-  font-size:1.4rem;
-   }
+@media (min-width:992px) and (max-width:1024px) {
+  .hero-frontpage__title {
+    font-size:3.9rem !important;
+    margin-top: 0;
+  }
+  .hero__text {
+    font-size: 1.2rem; /* mobile first */
+    line-height: 1.4; /* mobile first */
+  }
+  
+  .card-text-b {
+    font-size: 1.1rem !important;
+  }
+}
 
- .card-text-b {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 1.5rem;
+@media (min-width:1025px) {
+  .hero__wrapper {
+    padding-top: 80px;
+  }
+  .hero-frontpage__title {
+    font-size:4.5rem !important;
+    margin-top: 0;
+    
+  }
+  .hero__text {
+    font-size: 1.2rem; /* mobile first */
+    line-height: 1.4; /* mobile first */
+  }
+  
+  .card-text-b {
+    font-size: 1.1rem !important;
+  }
 }
 
 .icon-phone {
@@ -146,7 +260,7 @@
 
   .card-text-b {
     font-family: 'Open Sans', sans-serif;
-    font-size: 1.1rem;
+    font-size: 1.4rem;
   }
 }
 
