@@ -5,9 +5,11 @@
 }
 
 .content-info {
+  border-top: 1px solid $liteGray;
   .card {
     border: 1px solid $scrubGreen;
     font-family: $font-family-sans-serif;
+    margin-bottom: 2em;
     h5, h6 {
       color: white !important;
     }

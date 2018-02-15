@@ -144,6 +144,16 @@ h4 {
   font-weight: 300;
 }
 
+.copyright span {
+  font-family: $font-family-sans-serif;
+  @include typi(base);
+  font-size: 50%;
+  display: block;
+  margin: auto;
+  width: 100%;
+  text-align: center;
+}
+
 /* Modular Scale */
 $ms-base: 1em;
 $ms-ratio: $minor-third;
