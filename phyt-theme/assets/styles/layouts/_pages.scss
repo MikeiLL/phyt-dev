@@ -19,4 +19,8 @@
     font-size: 78%;
     margin: .8em 0 .2em;
   }
+
+  .col-md-6 {
+    @extend .col-md-12;
+  }
 }
