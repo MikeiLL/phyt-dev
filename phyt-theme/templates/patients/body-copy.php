@@ -1,6 +1,6 @@
 <section class="patients-main">
 <div class="container">
-  <div class="row border border-light">
+  <div class="row  ">
 
     <div class="col-md-8 col-sm-12">
       <h1>Wanting to go home.</h1>
@@ -21,7 +21,7 @@
 </section>
 <section class="patients-therapy">
   <div class="container">
-    <div class="row border border-light">
+    <div class="row  ">
 
     <div class="col-12 col-md-4">
 
