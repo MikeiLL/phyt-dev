@@ -5,9 +5,8 @@
 
       <h2>We welcome your inquiries by the means most comfortable to you.</h2>
 
-      <div class="container justify-content">
-        <?php get_template_part('templates/content', 'page'); // contact form ?>
-      </div>
+      <?php get_template_part('templates/content', 'page'); // contact form ?>
+
     </div>
 
     <div class="col-12 col-sm-4 bg-light" >
