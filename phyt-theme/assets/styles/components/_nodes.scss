@@ -3,7 +3,7 @@
     width: 6em;
     height: 6em;
     border-radius: 50%;
-    
+
     font-size: .7em;
     margin:0 auto;
     text-align: center;
@@ -41,8 +41,9 @@
 
 @media (min-width: map-get($breakpoints, medium)) {
   .node  {
-      width: 12em;
-      height: 12em;
-      font-size: 1.2em;
+      width: 9em;
+      height: 9em;
+      font-size: 1.3em;
+      font-weight: bold;
   }
 }
