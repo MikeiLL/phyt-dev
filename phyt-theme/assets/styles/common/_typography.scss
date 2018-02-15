@@ -111,9 +111,9 @@ h1 + h2 {
 
 h1 {
 
-//  color:darken($blueMain, 20%);???
+//color:darken($blueMain, 20%);???
+//margin-top: .8em;
 font-family: 'Museo-500';
-  margin-top: .8em;
 }
 
 h4 {
@@ -121,7 +121,7 @@ h4 {
 }
 
 .hero-title {
-  //font-size: 4.5em;
+  
   opacity:.85;
   font-weight: bold;
 }
@@ -183,10 +183,10 @@ $breakpoints: (
 
 $typi: (
       base: (
-      null: (18px, 1.1),
-      small: (20px),
-      large: (20px),
-      xlarge: (20px),
+      null: (18px, 1.4),
+      small: (20px, 1.4),
+      large: (20px, 1.4),
+      xlarge: (20px, 1.4),
     ),
 
     h1-map: (
@@ -269,7 +269,7 @@ body, p, blockquote { @include typi(base) }
 
 
 .pullquote {
-  color:Orange;
+  color:Orange; 
   margin:0 auto;
   width:70%;
   font-family:'Raleway';
