@@ -5,6 +5,7 @@ docker-compose exec --user www-data wordpress wp post create --post_type=page --
 docker-compose exec --user www-data wordpress wp post create --post_type=page --post_content --post_title="Patients" --post_status=publish
 docker-compose exec --user www-data wordpress wp post create --post_type=page --post_content --post_title="Partners" --post_status=publish
 docker-compose exec --user www-data wordpress wp post create --post_type=page --post_content --post_title="Careers" --post_status=publish
+docker-compose exec --user www-data wordpress wp post create --post_type=page --post_content --post_title="Contact" --post_status=publish
 docker-compose exec --user www-data wordpress wp post create --post_type=jobs --post_content --post_title="Manhattan Manager" --post_status=publish
 docker-compose exec --user www-data wordpress wp post create --post_type=jobs --post_content --post_title="Brooklyn Manager" --post_status=publish
 docker-compose exec --user www-data wordpress wp post create --post_type=jobs --post_content --post_title="Queens Manager" --post_status=publish
