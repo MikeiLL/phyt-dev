@@ -13,7 +13,6 @@ h2.frontpage-services__title {
 
 
 .frontpage-services p {
-	font-size: 1.25rem;
 	margin:0px auto;
 	width:100%;
 }
@@ -25,7 +24,7 @@ h2.frontpage-services__title {
 }
 
 h3.frontpage__header {
-	@include typi(h3-map);	
+	@include typi(h3-map);
 }
 
 .frontpage-services__service {
@@ -33,7 +32,7 @@ h3.frontpage__header {
 }
 
 .frontpage-services__service p {
-	margin:0px auto 40px auto;	
+	margin:0px auto 40px auto;
 }
 
 /* CONTACT ..........*/
@@ -48,8 +47,8 @@ h3.frontpage__header {
 
 .frontpage-contact__title {
 	color:#fff;
-	@include typi(get-in-touch-map);	
-} 
+	@include typi(get-in-touch-map);
+}
 .frontpage-contact__hr {
 	background-color: #fff;
 	height:2px;
