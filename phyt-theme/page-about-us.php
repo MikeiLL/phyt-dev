@@ -8,7 +8,7 @@
       <h2>Duo Reges: constructio interrete. Igitur neque stultorum quisquam beatus neque sapientium non beatus. Etsi qui potest intellegi aut cogitari esse aliquod animal, quod se oderit?</h2>
     </div>
     <div class="col-12 col-md-4 pt-4">
-      <img class="img-fluid" alt="Bio Picture" src="<?= get_template_directory_uri(); ?>/dist/images/Woman-and-online-ideas.jpg">
+      <img class="img-fluid box-shadow" alt="Bio Picture" src="<?= get_template_directory_uri(); ?>/dist/images/Woman-and-online-ideas.jpg">
     </div>
   </div>
 </div>
