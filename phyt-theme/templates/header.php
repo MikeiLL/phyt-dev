@@ -2,7 +2,7 @@
 use  Roots\Sage\HeroRender;
 ?>
 <div class="sticky-top">
-  <div class="contact-strip clearfix">
+  <div class="super-header clearfix">
     <span class="float-right"><a href="mailto:info@phytrehab.com">info@phytrehab.com</a></span><span class="float-right"><a href="tel:+8885753483">1.888.575.3483</a></span>
   </div>
   <nav class="navbar navbar-expand-lg navbar-light bg-light">

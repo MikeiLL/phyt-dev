@@ -195,11 +195,18 @@ $typi: (
       medium: (ms(2), 1.4),
       large: (ms(0), 1.3)
       ),
+
     get-in-touch-map: (
       null: (ms(5), 1.2),
       small: (ms(5), 1.2),
       medium: (ms(6), 1.2),
       large: (ms(6), 1.3)
+      ),
+    super-header-map: (
+      null: (ms(-2), 1.2),
+      small: (ms(-1), 1.2),
+      medium: (ms(0), 1.2),
+      large: (ms(0), 1.3)
       )
     );
 
@@ -207,7 +214,7 @@ $typi: (
 h1 { @include typi(h1-map) }
 h2 { @include typi(h2-map) }
 h3 { @include typi(h3-map) }
-h4 { @include typi(h4-map) }    
+h4 { @include typi(h4-map) }
 body, p, blockquote { @include typi(base) }
 
 
