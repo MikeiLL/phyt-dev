@@ -1,10 +1,11 @@
 <div class="container-fluid contact-page" itemscope itemtype="http://schema.org/MedicalOrganization">
   <div class="row border border-light">
     <div class="col-12 col-sm-8">
-      <h6 class="card-subtitle" itemprop="name">Phyt Rehab</h6>
-      We understand the right fit makes all the difference
-      We’re available to answer your questions, meet your needs, and rapidly deploy our services. Reach out!
+      <h1>If it don't <strong itemprop="name">Phit</strong> don't force it.</h1>
 
+      <h2>We welcome your inquiries by the means most comfortable to you.</h2>
+
+    <?php get_template_part('templates/content', 'page'); // contact form ?>
     </div>
 
     <div class="col-12 col-sm-4 bg-light" >
@@ -59,6 +60,5 @@
   </div>
 </div>
 
-<h3 class="">Contact us today to learn more about how our services can work for you.</h3>
-
+<blockquote class="pullquote">Contact us today to learn more about how our services can work for you.</blockquote>
 
