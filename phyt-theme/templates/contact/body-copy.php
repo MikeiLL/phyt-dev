@@ -9,7 +9,7 @@
     </div>
 
     <div class="col-12 col-sm-4 bg-light" >
-      <h2>GENERAL INQUIRIES</h2>
+      <h3>GENERAL INQUIRIES</h3>
 
       <div itemprop="phone"><svg class="icon icon-phone"><use xlink:href="#icon-phone"></use></svg> 1.888.575.3483</div>
 
@@ -23,7 +23,7 @@
 
       <div itemprop="email"><svg class="icon si-bootstrap-envelope"><use xlink:href="#si-bootstrap-envelope"></use></svg> info@phytrehab.com</div>
 
-      DEPARTMENTS
+      <h4>DEPARTMENTS</h4>
       <ul id="reveal">
         <li class="" role="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne"><svg class="icon icon-plus"><use xlink:href="#icon-plus"></use></svg> Business Inquiries</li>
         <div id="collapseOne" itemscope itemtype="http://schema.org/Person" class="collapse" aria-labelledby="headingOne" data-parent="#reveal">

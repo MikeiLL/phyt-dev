@@ -174,15 +174,15 @@ $typi: (
       ),
 
     h3-map: (
-      null: (ms(2), 1.2),
-      small: (ms(2), 1.2),
+      null: (ms(1), 1.2),
+      small: (ms(1), 1.2),
       medium: (ms(2), 1.2),
       large: (ms(3), 1.5)
       ),
 
     h4-map: (
-      null: (ms(-1), 1.2),
-      small: (ms(-1), 1.2),
+      null: (ms(0), 1.2),
+      small: (ms(0), 1.2),
       medium: (ms(0), 1.2),
       large: (ms(0), 1.3)
       ),
@@ -220,6 +220,13 @@ $typi: (
       small: (ms(-1), 1.2),
       medium: (ms(-1), 1.2),
       large: (ms(-1), 1.3)
+      ),
+
+    courtesy-map: (
+      null: (ms(-1), 1.3),
+      small: (ms(0), 1.3),
+      medium: (ms(1), 1.3),
+      large: (ms(1), 1.4)
       )
     );
 

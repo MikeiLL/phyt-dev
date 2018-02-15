@@ -8,4 +8,10 @@
 
   .icon { margin-right: 1.2em; }
   .icon-location { height: 2em; float: left;}
+
+  h4 {
+    text-align: center;
+  }
+
+  @include typi(courtesy-map);
 }
