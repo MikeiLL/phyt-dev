@@ -1,4 +1,7 @@
-<footer class="content-info py-2">
+<?php
+use Roots\Sage\Extras
+?>
+<footer class="content-info py-2 mt-2">
   <div class="container-fluid">
     <div class="row">
       <div class="col-12 col-md-6">
@@ -25,5 +28,8 @@
         </div>
       </div>
     </div>
+  </div>
+  <div class="container copyright">
+    <?php Extras\bns_dynamic_copyright() ?>
   </div>
 </footer>
