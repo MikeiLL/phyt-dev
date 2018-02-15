@@ -110,7 +110,9 @@ h1 + h2 {
 }
 
 h1 {
-  color:darken($blueMain, 20%);
+
+//  color:darken($blueMain, 20%);???
+font-family: 'Museo-500';  
   margin-top: .8em;
 }
 
@@ -121,6 +123,15 @@ h4 {
 .hero-title {
   //font-size: 4.5em;
   opacity:.85;
+  font-weight: bold;
+}
+
+.hero__text {
+  font-family: 'Museo-300';
+}
+
+.card-text-b {
+  font-family: 'Open Sans', sans-serif;
 }
 
 .content-title {

@@ -4,7 +4,7 @@
 <section class="hero hero-frontpage">
   <div class="container-fluid">
     <div class="hero__wrapper">
-      <div class="row align-items-center py-4">
+      <div class="row align-items-center py-4"><!--  -->
         <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
           <h1 class="hero-title hero-frontpage__title">What Matters Most Is Results</h1>
           <p class="hero__text">With over 35 years experience, we work with <em>patients</em> and <em>partners</em> to develop and manage individualized physical, occupational and speech therapy programs.</p>
