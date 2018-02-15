@@ -13,7 +13,7 @@ use Roots\Sage\Extras
                 <span itemprop="addressLocality">Brooklyn</span>,
                 <span itemprop="addressRegion">NY</span>
                 <span itemprop="postalCode">11223</span><br />
-                <span itemprop="email">info@phytrehab.com</span>
+                <a itemprop="email" href="mailto:info@phytrehab.com">info@phytrehab.com</a>
               </div>
           </div>
         </div>

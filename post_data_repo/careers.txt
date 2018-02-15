@@ -1,0 +1,10 @@
+<section class="careers__content">
+Phyt Rehab is always looking for capable, qualified and compassionate people to join our team. Use the search function below to find openings by geographic area. Our recruitment team is always accepting resumes and can help identify positions for qualified individuals. Please submit your contact information below.
+</section>
+<section class="careers__job">
+[wp_simple_locator distances="5,10,20,50,100,2000" buttontext="Location Search" addresslabel="U.S. Zip Code or City" mapcontrols="show" mapcontrolsposition="RIGHT_BOTTOM" placeholder="Enter U.S. Location"]
+
+<h2>Job Application Form</h2>
+
+[contact-form-7 id="1070" title="Job Application"]
+</section>
