@@ -14,4 +14,9 @@
   }
 
   @include typi(courtesy-map);
+
+  ul div {
+    font-size: 78%;
+    margin: .8em 0 .2em;
+  }
 }
