@@ -21,7 +21,7 @@ ul {
 }
 
 ul.list-checkbox li:before {
-	color: $scrubGreen;
+	color: lighten($blueMain, 40%);
   content: '✓ ';
 }
 
