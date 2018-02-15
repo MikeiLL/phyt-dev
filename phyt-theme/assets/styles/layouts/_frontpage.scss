@@ -39,9 +39,11 @@ h3.frontpage__header {
 /* CONTACT ..........*/
 .frontpage-contact {
   background: url('../images/nurse-desk-chair.jpg');
+  background-size:contain;
   margin-right: -15px;
   margin-left: -15px;
   padding-top: 100px;
+
 }
 
 .frontpage-contact__title {

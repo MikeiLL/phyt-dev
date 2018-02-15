@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
-// @import url('https://fonts.googleapis.com/css?family=Raleway:400,400i,500,500i,600,600i,700,700i');
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,400i,500,500i,600,600i,700,700i');
 
 @font-face {
   font-family: 'Museo-300';
@@ -98,7 +98,7 @@ body {
     font-size: 100%;
 }
 
-body, p { font-family: $font-family-base; }
+body, p { font-family: 'Museo-100' }
 
 h2, h3, h4, h5 {
   color:$blueMain;
@@ -172,7 +172,7 @@ $typi: (
       null: (ms(2), 1.2),
       small: (ms(2), 1.2),
       medium: (ms(2), 1.2),
-      large: (ms(2), 1.5)
+      large: (ms(3), 1.5)
       ),
 
     h4-map: (
@@ -207,8 +207,23 @@ $typi: (
 h1 { @include typi(h1-map) }
 h2 { @include typi(h2-map) }
 h3 { @include typi(h3-map) }
-h4 { @include typi(h4-map) }
-body, p { @include typi(base) }
+h4 { @include typi(h4-map) }    
+body, p, blockquote { @include typi(base) }
+
+
+.pullquote {
+  color:Orange;
+  margin:0 auto;
+  width:70%;
+  font-family:'Raleway';
+  font-weight:bold;
+  font-size: 2.75em;
+  font-style: oblique;
+  margin:40px auto 0 auto;
+
+  text-align: center;
+}
+
 
 /* Media Queries */
 

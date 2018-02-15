@@ -1,9 +1,10 @@
-<div class="container">
-  <section class="partners__content">
+<section class="partners__content">
+<div class="container ">
+  
   <blockquote>Phyt Rehab is a full service rehabilitation management organization providing <em>clinical</em>, <em>managerial</em>, <em>billing</em> and <em>information technology</em> solutions to the post-acute care community. Over the last 35 years, we have worked with hundreds of Skilled Nursing Facilities, maintaining partnerships with SNF operators around the United States.</blockquote>
 
 
-  <div class="row border border-light">
+  <div class="row partners__shared-priorities">
     <div class="col-4">
       <div class="node node-blue text-center">
         <span class="text-white">Quality Care</span>
@@ -19,17 +20,22 @@
         <span class="text-white">Cost Effective Solutions</span>
       </div>
     </div>
+    <h3 class="partners__shared-h3 content-title text-center text-muted">Shared Priorities</h3>
+   </div>
    </div> 
   </section>
-  <section class="partners__shared-priorities">
+  <section class="partners__program-options">
+  <div class="container">  
     <div class="row">
       <div class="col-12">
-        <h3 class="partners__content-title content-title text-center text-muted">Shared Priorities</h3>
+        
         <p>Phyt is led by a hands-on team of rehab therapists with expansive knowledge of SNF rehabilitation needs. The #PhytSquad and our rehabilitation partners provide <strong>Integrated Care</strong> in which <em>physicians</em>, <em>patients</em> and <em>interdisciplinary team</em> members collaboratively strategize the best rehabilitation approach for each unique situation.</p>
       </div>
-     </div> 
-  
-    <div class="row">
+     </div>
+
+
+
+     <div class="row">
         <div class="col-12 col-md-6">
           <h3>Program options include:</h3>
             <ul class="list-checkbox"> 
@@ -70,6 +76,14 @@
           <img src="<?= get_template_directory_uri(); ?>/dist/images/nurse-on-phone.png" class="img-fluid box-shadow" alt="Nurse on Phone" />
         </div>
       </div>
-    </section>      
 
-</div>
+
+
+
+
+
+
+
+  </div>
+  </section>      
+
