@@ -11,7 +11,7 @@ a {
 
 a:hover {
 	text-decoration: none;
-	color:lighten($scrubGreen, 7%) !important;
+	color:$accentColor !important;
 };
 
 .main, .content-info {
