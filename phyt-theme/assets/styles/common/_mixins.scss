@@ -1,7 +1,7 @@
 
 @mixin sec-padding-top {
-	//padding-top: 1.2rem;
-	padding-top: 40px;
+	padding-top: 1.2rem;
+	
 }
 
 @mixin sec-padding-bottom {
@@ -9,9 +9,6 @@
 }
 
 
-@mixin hero-title-global {
-
-}
 
 /* FORM ELS */
 @mixin input-height($h) {
