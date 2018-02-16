@@ -7,17 +7,17 @@
 
 
   <div class="row partners__shared-priorities">
-    <div class="col-4">
+    <div class="col-4 node-col">
       <div class="node node-blue text-center">
         <span class="text-white">Quality Care</span>
       </div>
     </div>
-    <div class="col-4">
+    <div class="col-4 node-col">
       <div class="node node-green">
         <span class="text-white">Regulatory Compliance</span>
       </div>
     </div>
-    <div class="col-4">
+    <div class="col-4 node-col">
       <div class="node node-violet">
         <span class="text-white">Cost Effective Solutions</span>
       </div>
