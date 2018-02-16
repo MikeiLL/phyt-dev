@@ -14,20 +14,17 @@ section.partners__content, section.partners__program-options {
 }
 
 .partners__shared-priorities {
+  h2 {
+    padding-top: 2rem;
+    text-align: center;
+    width:100%;
+  }
 	border:3px solid $liteGray;
 	border-radius: 5px;
 	padding-top: 30px;
 }
 
-h3.partners__shared-h3 {
-	padding-top: 2rem;
-	text-align: center;
-	width:100%;
-}
-
 .partners__list-checkbox li {
-	font-size: 1.1rem;
-	font-weight: bold;
 	margin-bottom: 5px;
 }
 
