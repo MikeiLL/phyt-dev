@@ -23,7 +23,7 @@
   <div class="container">
     <div class="row  ">
 
-    <div class="col-12 col-md-4">
+    <div class="col-12 col-md-4 patients__physical">
 
       <h3 class="patients-therapy__title">Physical Therapy</h3>
       <hr>
@@ -31,7 +31,7 @@
       <p>Your Physical Therapist will work with you to create an individualized program towards getting you back home as soon as possible. After doing an initial evaluation, the Physical Therapy team will create a plan of care established to improve your mobility, balance, strength, and safety.</p>
     </div>
 
-    <div class="col-12 col-md-4">
+    <div class="col-12 col-md-4 patients__occupational">
 
       <h3 class="patients-therapy__title">Occupational Therapy</h3>
       <hr>
@@ -39,14 +39,14 @@
       <p>Your Occupational Therapist will assist you to re-develop the skills you need to function and live life to its fullest. After your initial evaluation, the Occupational Therapy team will help you strengthen the skills to complete your activities of daily living and what you need to be able to do to return to your unique home environment.</p>
     </div>
 
-    <div class="col-12 col-md-4">
+    <div class="col-12 col-md-4 patients__speech">
 
       <h3 class="patients-therapy__title">Speech Therapy</h3>
       <hr>
 
       <p>Speech Language Pathologists (SLPs) are trained in areas of oral motor skills such as swallowing, cognitive communication and orientation. Your SLP will collaborate with you and the Interdisciplinary team to improve your cognition, communication, and swallowing function.</p>
     </div>
-    <blockquote class="pullquote">Contact us today to learn more about how our services can work for you.</blockquote>
+    <blockquote class="pullquote patients__pullquote">Contact us today to learn more about how our services can work for you.</blockquote>
 
   </div>
   </div>

@@ -7,12 +7,16 @@ section.patients-therapy div[class^="col"] {
 	margin-bottom:35px; 
 }
 
+
 .patients__blockquote {
 	font-family: Raleway,sans-serif;
 	color: #222;
 	font-size: 2em;
 	font-weight: bold;
+}
 
+.patients__pullquote {
+	margin-top: 0 !important;
 }
 
 .patients-therapy__title {
