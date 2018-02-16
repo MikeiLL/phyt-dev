@@ -105,9 +105,13 @@ select.distanceselect {
 
   }
 
-  input[type="text"],input[type="email"],input[type="tel"] , textarea {
+  input[type="text"],input[type="email"],input[type="tel"] , input[type="submit"], textarea {
     @include input-textarea($almostBlack, #ccc);
     //width:100%;
+    margin-bottom: 20px;
+  }
+
+  input[type="file"] {
     margin-bottom: 20px;
   }
 

@@ -28,11 +28,12 @@ section.careers__content {
 	.submit {
 		margin-bottom: 0 !important;
 	}
+	
 	.geo_button_cont {
-		padding-top: 0;
 		margin-left: 0;
-	}
-	@media screen and (max-width:567px) {
+		padding-top: 0;
+	} 
+	@media screen and (max-width:767px) {
 		.address-input, .distance {
 			display:block;
 			width:100%;
@@ -53,37 +54,32 @@ section.careers__content {
 	}
 } 
 
-@media screen and (min-width: 568px) {
-	.simple-locator-form form {
-		
-		.address-input {
-			//float:left;
-			//width:45%;
-			width:60%;
-			display:inline-block;
-		}
-		.distance {
-			//float:right;
-			clear:none;
-			//width:45%;
-			width:35%;
-			display:inline-block;
-		}
-	}
-}
-
 @media screen and (min-width: 768px) {
 	.simple-locator-form, .careers__job-app-wrapper {
-		width:80%;
+		width:100%;
 	}	
 	.simple-locator-form form{
-		width:70%;
+		width:100%;
+	}
+	.submit {
+		clear:left !important;
+	}
+	.geo_button_cont {
+		padding-top:20px !important;
+		float:left !important;
+		margin-left: 5px !important;
 	}
 }
 .simple-locator-form label {
 	font-size: 1rem;
 	font-weight: bold;
 	margin-bottom: 2px;
+}
+
+@media screen and (min-width:992px) {
+	.simple-locator-form, .careers__job-app-wrapper {
+		width:80%;
+	}
 }
 
 
@@ -101,6 +97,15 @@ h2.careers_job-app-title {
 	p { /* THIS FORMS ELS ARE WRAPPED IN P TAGS UNFORTUNATELY! */
 	    font-size: 1rem;
 	    margin:0 auto;
-	    width:70%;
+	    width:100%;
 	}
+	
+/*
+	@media screen and (min-width:992px) {
+		p { 
+	    font-size: 1rem;
+	    margin:0 auto;
+	    width:100%;
+	} 
+	} */
 } 
