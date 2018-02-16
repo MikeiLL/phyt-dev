@@ -8,11 +8,6 @@
 }
 
 /* SERVICES ..........*/
-h2.frontpage-services__title {
-	@include typi(h2-map);
-}
-
-
 
 .frontpage-services p {
 	margin:0px auto;
@@ -23,10 +18,6 @@ h2.frontpage-services__title {
 	.frontpage-services p {
 		width:90%;
 	}
-}
-
-h3.frontpage__header {
-	@include typi(h3-map);
 }
 
 .frontpage-services__service {
