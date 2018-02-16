@@ -1,19 +1,19 @@
-<section class="patients-main">
+<section class="contact-main">
   <div class="container-fluid contact-page" itemscope itemtype="http://schema.org/MedicalOrganization">
     <div class="row border border-light">
       <div class="col-12 col-sm-8">
         <h1>If it don't <strong itemprop="name">Phit</strong> don't force it.</h1>
 
         <h2>We welcome your inquiries by the means most comfortable to you.</h2>
-
-        <?php get_template_part('templates/content', 'page'); // contact form ?>
-
+        <div class="contact__form-wrapper">
+          <?php get_template_part('templates/content', 'page'); // contact form ?>
+        </div>
       </div>
 
       <div class="col-12 col-sm-4 bg-light" >
         <h3>GENERAL INQUIRIES</h3>
 
-        <div itemprop="phone"><svg class="icon icon-phone"><use xlink:href="#icon-phone"></use></svg> 1.888.575.3483</div>
+        <div itemprop="phone"><svg class="icon icon-phone"><use xlink:href="#icon-phone"></use></svg>1.888.575.3483</div>
 
         <div class="address" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
         <svg class="icon icon-location"><use xlink:href="#icon-location"></use></svg>

@@ -1,0 +1,43 @@
+.contact-main {
+	@include sec-padding-top;
+	padding-bottom: 40px;
+	padding-top: 40px;
+}
+
+.contact-page > div > div > h2 {
+	margin-bottom:20px;
+}
+
+.contact__form-wrapper {
+	width:100%;
+	form {
+		label {
+			width: 100%;
+			}
+		input, textarea {
+			@include input-textarea(#222, rgba(183,203,206,.77));
+			margin-bottom: 10px; 
+		}
+		input {
+			@include input-height(40px);
+		}
+		input[type="submit"] {
+			@include submit-btn;
+		}
+	}
+}
+
+@media screen and (min-width:900px) {
+	.contact__form-wrapper {
+		width: 75%;
+	}
+	.contact-page > div > div > h2 {
+		width:75%;
+	}
+}
+
+
+
+
+
+
