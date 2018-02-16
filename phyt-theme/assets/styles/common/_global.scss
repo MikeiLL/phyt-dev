@@ -14,6 +14,15 @@ a:hover {
 	color:lighten($scrubGreen, 7%) !important;
 };
 
+.main, .content-info {
+  a {
+    color: $blueMain;
+    &:hover {
+      color: darken($blueMain, 35%);
+    }
+  }
+}
+
 ul {
 	  list-style-type: none;
     list-style:none;
