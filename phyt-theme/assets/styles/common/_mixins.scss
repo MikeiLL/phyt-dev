@@ -8,16 +8,39 @@
 }     
 
 /* FORM ELS */
+@mixin input-height($h) {
+	height : $h;
+}
 
+@mixin input-textarea($color, $borderClr) {
+	background: transparent;
+      border-width:1px;
+      border-style:solid;
+      border-color:rgba(183,203,206,0.77);
+      border-radius: 2px;
+      color:$color;
+      letter-spacing: 2px;
+      padding-left: 2%;
+      transition:all .3s;
+      width:100%;
+      &:focus {
+        border-color:$accentColor;
+      };
+}
 
 @mixin submit-btn {
 	background-color: $blueMain;
 	border:none;
-	color:rgba(255,255,255,.8);
-	font-family: Arial, Helvetica, sans-serif;
+	color:#fff;
+	font-family: 'Montserrat', Arial, Helvetica, san-serif;
 	font-size: .85rem;
 	height:50px;
 	letter-spacing: 2px;
 	margin-top: 0 auto;
 	text-transform: uppercase;
+	&:hover {
+        background-color:$accentColor;
+      };
 }
+
+
