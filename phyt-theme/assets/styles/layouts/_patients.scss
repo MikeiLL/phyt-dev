@@ -3,7 +3,6 @@ section.patients-therapy, section.patients-main {
 }
 
 section.patients-therapy div[class^="col"] {
-	
 	margin-bottom:35px; 
 }
 
@@ -12,7 +11,10 @@ section.patients-therapy div[class^="col"] {
 	color: #222;
 	font-size: 2em;
 	font-weight: bold;
+}
 
+.patients__pullquote {
+	margin-top: 0 !important;
 }
 
 .patients-therapy__title {

@@ -37,18 +37,18 @@
 
      <div class="row">
         <div class="col-12 col-md-6">
-          <h3>Program options include:</h3>
-            <ul class="list-checkbox"> 
+          <h3 class="partners__program">Program options include:</h3>
+            <ul class="list-checkbox partners__list-checkbox partners__program-options-list"> 
               <li>Turn-key rehabilitation programming</li>
               <li>Program management & consulting</li>
               <li>Staffing</li>
             </ul>
-            <img src="<?= get_template_directory_uri(); ?>/dist/images/graph-chart.jpg" class="img-fluid box-shadow" alt="Stock Graph Chart" />
+            <img src="<?= get_template_directory_uri(); ?>/dist/images/graph-chart.jpg" class="img-fluid box-shadow partners__img" alt="Stock Graph Chart" />
         </div>
     
       <div class="col-12 col-md-6">
         <h3>We facilitate:</h3>
-        <ul class="list-checkbox">
+        <ul class="list-checkbox partners__list-checkbox partners__we-facillitate-list">
           <li>Establishing metrics to track procedural improvement</li>
           <li>Ongoing reviews</li>
           <li>Continuous regulatory compliance</li>
@@ -63,7 +63,7 @@
     <div class="row x-pad-top">
         <div class="col-12 col-md-6">
           <h3>Your #PhytSquad partners participate actively in:</h3>
-            <ul class="list-checkbox">
+            <ul class="list-checkbox partners__list-checkbox partners__phytsquad-list">
               <li>Facility meetings</li>
               <li>Conferences with key members of the Interdisciplinary team</li>
               <li>Quality assurance initiatives</li>
@@ -73,7 +73,7 @@
         
     
         <div class="col-12 col-md-6">
-          <img src="<?= get_template_directory_uri(); ?>/dist/images/nurse-on-phone.png" class="img-fluid box-shadow" alt="Nurse on Phone" />
+          <img src="<?= get_template_directory_uri(); ?>/dist/images/nurse-on-phone.png" class="img-fluid box-shadow partners__img" alt="Nurse on Phone" />
         </div>
       </div>
 
