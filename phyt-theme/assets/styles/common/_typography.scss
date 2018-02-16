@@ -122,6 +122,10 @@ h4 {
   margin: 1em auto;
 }
 
+p:empty {
+  display: none;
+}
+
 .hero-title {
   opacity:.85;
   font-weight: bold;

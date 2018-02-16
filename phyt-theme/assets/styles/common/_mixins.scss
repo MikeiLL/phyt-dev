@@ -1,15 +1,20 @@
 
 @mixin sec-padding-top {
-	padding-top: 1.2rem;
-	
+ 	padding-top: 2rem;
 }
 
 @mixin sec-padding-bottom {
-	padding-bottom: 1.2rem;
+	padding-bottom: 2rem;
 }
 
+@mixin section-padding-top {
+	padding-top: 2rem;	
+}
 
-
+@mixin sec-pad-top {
+	padding-top: 2rem;
+}
+   
 /* FORM ELS */
 @mixin input-height($h) {
 	height : $h;
