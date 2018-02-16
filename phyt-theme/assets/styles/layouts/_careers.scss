@@ -4,6 +4,10 @@ section.careers__main, section.careers__locator {
 	@include sec-padding-top;
 }
 
+section.careers__content {
+  @include sec-padding-bottom;
+}
+
 .simple-locator-form, .careers__jop-app-wrapper {
 	display: block;
 	margin:0 auto 40px auto;
