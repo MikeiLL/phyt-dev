@@ -10,15 +10,12 @@
 /* SERVICES ..........*/
 .frontpage-services__wrapper {
 	padding-top: 2rem;
+	margin-bottom: 30px;
 }
 
-.frontpage-services__service {
-	//padding:20px 20px 0 20px;
-	padding-top:20px;
-}
 
 .frontpage-services p {
-	margin:0px auto;
+	margin:0px auto 30px auto;
 	width:100%;
 }
 
@@ -30,8 +27,7 @@
 }
 
 .frontpage-services__service p {
-	//margin:0px auto 40px auto;
-	margin:0px auto 20px auto;
+	margin:0px auto 30px auto;
 }
 
 /* CONTACT ..........*/
