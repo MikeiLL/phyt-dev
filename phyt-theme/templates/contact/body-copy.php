@@ -2,7 +2,7 @@
   <div class="container-fluid contact-page" itemscope itemtype="http://schema.org/MedicalOrganization">
     <div class="row border border-light">
       <div class="col-12 col-sm-8">
-        <h1>If it don't <strong itemprop="name">Phit</strong> don't force it.</h1>
+        <h1>If it don't <strong itemprop="name">Phyt</strong> don't force it.</h1>
 
         <h2>We welcome your inquiries by the means most comfortable to you.</h2>
 
