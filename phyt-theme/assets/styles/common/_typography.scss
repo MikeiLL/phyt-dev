@@ -122,6 +122,10 @@ h4 {
   margin: 1em auto;
 }
 
+p:empty {
+  display: none;
+}
+
 .hero-title {
   opacity:.85;
   font-weight: bold;
@@ -230,6 +234,12 @@ $typi: (
       small: (ms(0), 1.3),
       medium: (ms(1), 1.3),
       large: (ms(1), 1.4)
+      ),
+    general-inquiries-map: (
+      null: (ms(1), 1.3),
+      small: (ms(-1), 1.3),
+      medium: (ms(0), 1.3),
+      large: (ms(0), 1.4)
       )
     );
 
@@ -254,6 +264,12 @@ body, p, blockquote { @include typi(base) }
   text-align: center;
 }
 
+/* CONTACT */
+
+.contact__general-inquiries-title, .contact__departments-title, ul#reveal {
+  font-family: $font-family-sans-serif;
+  font-variant: small-caps;
+}
 
 /* Media Queries */
 
@@ -275,3 +291,5 @@ body, .entry-content p, .entry-summary p {
 }
 
 //@debug ms-list(-2, 4, $ms-base, $ms-ratio);
+
+

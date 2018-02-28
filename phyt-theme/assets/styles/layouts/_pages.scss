@@ -1,29 +1,3 @@
-/* Contact Us */
-.contact-page {
-
-  .col-sm-4 {
-    padding: 1em 2em;
-    font-family: $font-family-sans-serif;
-  }
-
-  .icon { margin-right: 1.2em; }
-  .icon-location { height: 2em; float: left;}
-
-  h4 {
-    text-align: center;
-  }
-
-  @include typi(courtesy-map);
-
-  ul div {
-    font-size: 78%;
-    margin: .8em 0 .2em;
-  }
-
-  .col-md-6 {
-    @extend .col-md-12;
-  }
-}
 
 /* Careers Page  */
 

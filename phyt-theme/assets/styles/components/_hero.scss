@@ -56,7 +56,7 @@
 }
 
 .hero__text {
-  font-size: 1.2rem !important; 
+  font-size: 1.25rem !important; 
   line-height: 1.4; 
   }
 
@@ -177,7 +177,7 @@
   }
   
   .card-text-b {
-    font-size: 1.1rem !important;
+    font-size: 1.25rem !important;
   }
 }
 
@@ -306,11 +306,6 @@ section.hero-partners {
   }
 }
 
-@media screen and (min-width: 892px) {
-  .hero-careers__title {
-    font-size:5.5rem;
-  }
-}
 @media screen and (min-width: 992px) {
   .hero-careers__title {
     margin-top: 15px;

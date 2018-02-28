@@ -74,7 +74,7 @@ button.wpslsubmit, button.all-jobs-link, button.wpsl-geo-button {
   transition:all .3s;
 }
 
-button.wpslsubmit:hover, button.all-jobs-link:hover {
+.wpslsubmit:hover, .all-jobs-link:hover, .wpsl-geo-button:hover {
   background-color: $accentColor;
 }
 
@@ -87,7 +87,8 @@ select.distanceselect {
 
 
 /* JOB APPLICATION */
-#wpcf7-f1070-p8-o1 {
+ .careers__job-app-wrapper { 
+  /* #wpcf7-f1070-p8-o1 {  */
 
   label, span.resume {
     font-size: 1rem;
@@ -104,9 +105,13 @@ select.distanceselect {
 
   }
 
-  input[type="text"], textarea {
+  input[type="text"],input[type="email"],input[type="tel"] , input[type="submit"], textarea {
     @include input-textarea($almostBlack, #ccc);
     //width:100%;
+    margin-bottom: 20px;
+  }
+
+  input[type="file"] {
     margin-bottom: 20px;
   }
 
@@ -121,6 +126,11 @@ select.distanceselect {
     
     }
 }
+
+/* CONTACT */
+
+
+
 
 
 /* PLACEHOLDER */

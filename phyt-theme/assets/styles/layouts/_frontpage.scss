@@ -8,24 +8,26 @@
 }
 
 /* SERVICES ..........*/
+.frontpage-services__wrapper {
+	padding-top: 2rem;
+	margin-bottom: 30px;
+}
+
 
 .frontpage-services p {
-	margin:0px auto;
+	margin:0px auto 30px auto;
 	width:100%;
 }
 
 @media screen and (min-width:860px) {
+	/*
 	.frontpage-services p {
 		width:90%;
-	}
-}
-
-.frontpage-services__service {
-	padding-top: 40px;
+	} */
 }
 
 .frontpage-services__service p {
-	margin:0px auto 40px auto;
+	margin:0px auto 30px auto;
 }
 
 /* CONTACT ..........*/

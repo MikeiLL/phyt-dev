@@ -13,5 +13,6 @@ section.frontpage-section {
 }
 
 section.main {
-  margin-top: .7rem;
-}
+  //@include sec-padding-bottom;
+  //@include sec-pad-top;
+}    

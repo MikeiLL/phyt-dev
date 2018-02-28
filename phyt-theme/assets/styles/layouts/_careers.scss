@@ -8,7 +8,11 @@ section.careers__content {
   @include sec-padding-bottom;
 }
 
-.simple-locator-form, .careers__jop-app-wrapper {
+.careers__job-app-title {
+	text-align: center !important;
+}
+
+.simple-locator-form, .careers__job-app-wrapper {
 	display: block;
 	margin:0 auto 40px auto;
 	//width: 80%;
@@ -21,53 +25,49 @@ section.careers__content {
 
 .simple-locator-form form {
 	width:100%;
-
-@media screen and (max-width:567px) {
-	.address-input, .distance {
-		display:block;
-		width:100%;
-		float:none;
-		margin-bottom:10px;
+	.submit {
+		margin-bottom: 0 !important;
 	}
-	.distance {
-		clear:both;
-	}
-	div.submit, .geo_button_cont {
-		width:100%;
-		
-		button {
-			margin-bottom: 20px;
+	
+	.geo_button_cont {
+		margin-left: 0;
+		padding-top: 0;
+	} 
+	@media screen and (max-width:767px) {
+		.address-input, .distance {
+			display:block;
 			width:100%;
-		}
-	}
-}
-} 
-
-@media screen and (min-width: 568px) {
-	.simple-locator-form form {
-		
-		.address-input {
-			//float:left;
-			//width:45%;
-			width:auto;
-			display:inline-block;
+			float:none;
+			margin-bottom:10px;
 		}
 		.distance {
-			//float:right;
-			clear:none;
-			//width:45%;
-			width:auto;
-			display:inline-block;
+			clear:both;
+		}
+		div.submit, .geo_button_cont {
+			width:100%;
+			
+			button {
+				margin-bottom: 20px;
+				width:100%;
+			}
 		}
 	}
-}
+} 
 
 @media screen and (min-width: 768px) {
-	.simple-locator-form, .careers__jop-app-wrapper {
-		width:80%;
+	.simple-locator-form, .careers__job-app-wrapper {
+		width:100%;
 	}	
 	.simple-locator-form form{
-		width:70%;
+		width:100%;
+	}
+	.submit {
+		clear:left !important;
+	}
+	.geo_button_cont {
+		padding-top:20px !important;
+		float:left !important;
+		margin-left: 5px !important;
 	}
 }
 .simple-locator-form label {
@@ -76,20 +76,36 @@ section.careers__content {
 	margin-bottom: 2px;
 }
 
+@media screen and (min-width:992px) {
+	.simple-locator-form, .careers__job-app-wrapper {
+		width:80%;
+	}
+}
+
 
 h2.careers_job-app-title {
 	clear:both;
 	display: block;
 	margin-bottom: 30px;
 	text-align: center;
-	width: 100%
+	width: 100%;
 }
 
-#wpcf7-f1070-p8-o1 {
+ /* #wpcf7-f1070-p8-o1 {  */
+  .careers__job-app-wrapper {   
 
 	p { /* THIS FORMS ELS ARE WRAPPED IN P TAGS UNFORTUNATELY! */
 	    font-size: 1rem;
 	    margin:0 auto;
-	    width:70%;
+	    width:100%;
 	}
+	
+/*
+	@media screen and (min-width:992px) {
+		p { 
+	    font-size: 1rem;
+	    margin:0 auto;
+	    width:100%;
+	} 
+	} */
 } 
