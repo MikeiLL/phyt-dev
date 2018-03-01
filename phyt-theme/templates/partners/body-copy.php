@@ -2,10 +2,9 @@
 
   <div class="container">
 
-    <h2>Phyt provides skilled nursing and assisted living facilities with the most advanced, effective, patient-oriented therapy. At the same time, we offer unsurpassed expertise in the intricacies and nuances of your business.This means seamless integration of therapy into your organization’s  operations with none of the collateral administrative and managerial headaches.</h2>
+    <h2>Doing the best for your patients. Doing right by you.</h2>
 
-    <p>Over the last 35 years, we have worked with hundreds of Skilled Nursing Facilities, maintaining partnerships with SNF operators around the United States.</p>
-
+    <p>Phyt provides skilled nursing and assisted living facilities with the most advanced, effective, patient-oriented therapy. At the same time, we offer unsurpassed expertise in the intricacies and nuances of your business.This means seamless integration of therapy into your organization’s  operations with none of the collateral administrative and managerial headaches.</p>
 
     <div class="row partners__shared-priorities">
 
@@ -50,7 +49,7 @@
     <div class="row">
 
       <div class="col-12 col-md-6">
-       <img src="<?= get_template_directory_uri(); ?>/dist/images/vertical-nodes.png" class="img-fluid box-shadow partners__img" alt="Vertical Nodes with Caregiver and Patient" />
+       <img src="<?= get_template_directory_uri(); ?>/dist/images/vertical-nodes.png" class="img-fluid partners__img" alt="Vertical Nodes with Caregiver and Patient" />
       </div>
 
       <div class="col-12 col-md-6">
@@ -88,8 +87,6 @@
           </ul>
 
       </div> <!-- // \col -->
-
-      <h2>Your partner in the best sense of the word</h2>
 
     </div> <!-- // \row -->
 

@@ -25,7 +25,7 @@
 }
 
 /* GET IN TOUCH */
-  #wpcf7-f25-p4-o1, #wpcf7-f20-p1358-o1 {
+  #wpcf7-f1127-p1140-o1, #wpcf7-f20-p1358-o1 {
     label {
       width: 100%;
     }
@@ -65,12 +65,12 @@ input.wpsl-search-form {}
 button.wpslsubmit, button.all-jobs-link, button.wpsl-geo-button {
   border:1px solid rgba(183, 203, 206, 0.77);
   border-radius: 2px;
-  color:#fff; 
+  color:#fff;
   text-transform: uppercase;
   background-color: $blueMain;
   font-family: 'Montserrat', Arial, Helvetica, san-serif;
   font-size: .75rem;
-  padding:10px 20px; 
+  padding:10px 20px;
   transition:all .3s;
 }
 
@@ -81,19 +81,19 @@ button.wpslsubmit, button.all-jobs-link, button.wpsl-geo-button {
 select.distanceselect {
     border:1px solid rgba(183, 203, 206, 0.77);
     font-family: 'Montserrat', Arial, Helvetica, san-serif;
-    padding:5px 20px; 
+    padding:5px 20px;
     color:$blueMain;
   }
 
 
 /* JOB APPLICATION */
- .careers__job-app-wrapper { 
+ .careers__job-app-wrapper {
   /* #wpcf7-f1070-p8-o1 {  */
 
   label, span.resume {
     font-size: 1rem;
     font-weight: bold;
-    margin-bottom: 2px; 
+    margin-bottom: 2px;
     margin: 0 auto 2px auto;
     position: relative;
     display: block;
@@ -101,7 +101,7 @@ select.distanceselect {
   }
 
   input {
-    @include input-height(40px); 
+    @include input-height(40px);
 
   }
 
@@ -117,13 +117,13 @@ select.distanceselect {
 
   input[type="file"] {
     padding-left: 0 !important;
-    background-color: #fff;  
+    background-color: #fff;
   }
 
   input[type="submit"] {
     @include submit-btn
     //width:70%;
-    
+
     }
 }
 
@@ -163,5 +163,5 @@ select.distanceselect {
     font-size:.7em;
     padding-left: 2%;
     text-transform: uppercase;
-  } 
-}  
+  }
+}

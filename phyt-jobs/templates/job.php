@@ -43,22 +43,41 @@ if ( ! defined( 'ABSPATH' ) ) {
 		?>
 		</div>
 		<?php the_content(); ?>
+		
 		<div class="phyt-job-min-requirements">
-		<?php if (!empty($minimum_requirements['value'])) { echo $minimum_requirements['label'] . ': <br />' . $minimum_requirements['value']; } ?> 
+		
+			<?php if (!empty($minimum_requirements['value'])) { echo $minimum_requirements['label'] . ': <br />' . $minimum_requirements['value']; } ?> 
+		
 		</div>
-		<?php ?>
+		
+		
+		<div class="container-fluid">
+			<div class="row mx-auto mb-3">
+				<a href="<?php echo $application_link . urlencode($title); ?>" class="btn btn-primary text-white btn-block">Apply for this Position</a> 
+			</div>
+		</div>
+					
 		<SCRIPT LANGUAGE="JavaScript">
 		function checkEmailAddress(o){o.value.match(/\b(^(\S+@).+((\.com)|(\.net)|(\.edu)|(\.mil)|(\.gov)|(\.org)|(\.info)|(\.sex)|(\.biz)|(\.aero)|(\.coop)|(\.museum)|(\.name)|(\.pro)|(\..{2,2}))$)\b/gi)?good=!0:(alert("Please enter a valid address."),o.focus(),o.select(),good=!1)}function mailThisUrl(){good=!1,checkEmailAddress(document.eMailer.email),good&&(window.location="mailto:"+document.eMailer.email.value+"?subject="+initialsubj+"&body="+initialmsg)}var initialsubj="Potential Job with the #PhytSquad",initialmsg="Hi:\n You may want to check out this job: "+window.location,good;u=window.location;
 		</script>
-		<form method="post" name="eMailer">
-		<a href="<?php echo $application_link . urlencode($title); ?>" class="phyt-button">Apply for this Position</a>
-		Tell a friend:
-		<input type="text" name="email" size="26" value="Enter Address Here" onFocus="this.value=''" onMouseOver="window.status='Enter email address here and tell a friend about this site...'; return true" onMouseOut="window.status='';return true">
-		<br />
-		<input type="button" class="phyt-button wpcf7-form-control wpcf7-submit" value="Send this Job" onMouseOver="window.status='Click to send an email (with this page address) to a friend! Enter email address above...'; return true" onMouseOut="window.status='';return true" onClick="mailThisUrl();">
-		</form>
+		
+		
+		<div class="container-fluid ">
+			<div class="row m-1">
+				<div class="col-12 col.md-4 d-flex justify-content-center">
+					<form method="post" name="eMailer" class="form-inline">
+						<div class="form-group mb-2">
+							<label for="email" class="mr-1">Tell a friend:</label>
+							<input type="text" class="form-control" id="email" style="display:inline" name="email" value="Enter Address Here" onFocus="this.value=''" onMouseOver="window.status='Enter email address here and tell a friend about this site...'; return true" onMouseOut="window.status='';return true">
+						</div>
+						<button type="submit" class="btn btn-primary mb-2 ml-1">Send</button>
+					</form>
+				</div>
+			</div>
+		</div>
+		
+		
 <?php endwhile; ?>
-<?php wp_reset_postdata(); ?>
-<?php get_footer(); 
+<?php wp_reset_postdata(); 
 
 /* Omit closing PHP tag to avoid "Headers already sent" issues. */

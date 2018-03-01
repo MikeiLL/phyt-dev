@@ -9,10 +9,14 @@
   margin-right: -15px;
 }
 
+h1 {
+  text-transform: capitalize;
+}
+
 @media (min-width: map-get($breakpoints, medium)) {
   .hero {
     min-height:500px;
-    
+
   }
 }
 
@@ -20,7 +24,7 @@
   margin: 0 auto;
   width: 90%;
     @media (min-width:992px) {
-      padding-top:40px;  
+      padding-top:40px;
     }
   }
 
@@ -38,7 +42,7 @@
 .hero-frontpage__title {
   font-size:2rem !important;
   margin-top: 0;
-  
+
   letter-spacing: 0px;
   width: 90%;
 }
@@ -56,8 +60,8 @@
 }
 
 .hero__text {
-  font-size: 1.25rem !important; 
-  line-height: 1.4; 
+  font-size: 1.25rem !important;
+  line-height: 1.4;
   }
 
 .card-text-b {
@@ -79,10 +83,10 @@
     margin-top: 0;
   }
   .hero__text {
-    font-size: 1.4rem; 
-    line-height: 1.4; 
+    font-size: 1.4rem;
+    line-height: 1.4;
   }
-  
+
   .card-text-b {
     font-size: 1.1rem !important;
   }
@@ -95,9 +99,9 @@
   }
   .hero__text {
     font-size: 1.4rem;
-    line-height: 1.4; 
+    line-height: 1.4;
   }
-  
+
   .card-text-b {
     font-size: 1.3rem !important;
   }
@@ -109,10 +113,10 @@
     margin-top: 0;
   }
   .hero__text {
-    font-size: 1.4rem; 
-    line-height: 1.4; 
+    font-size: 1.4rem;
+    line-height: 1.4;
   }
-  
+
   .card-text-b {
     font-size: 1.3rem !important;
   }
@@ -124,9 +128,9 @@
   }
   .hero__text {
     font-size: 1.4rem;
-    line-height: 1.4; 
+    line-height: 1.4;
   }
-  
+
   .card-text-b {
     font-size: 1.5rem !important;
   }
@@ -139,9 +143,9 @@
   }
   .hero__text {
     font-size: 1.3rem;
-    line-height: 1.4; 
+    line-height: 1.4;
   }
-  
+
   .card-text-b {
     font-size: .9rem !important;
   }
@@ -156,7 +160,7 @@
     font-size: 1.2rem; /* mobile first */
     line-height: 1.4; /* mobile first */
   }
-  
+
   .card-text-b {
     font-size: 1.1rem !important;
   }
@@ -169,13 +173,13 @@
   .hero-frontpage__title {
     font-size:4.5rem !important;
     margin-top: 0;
-    
+
   }
   .hero__text {
     font-size: 1.2rem; /* mobile first */
     line-height: 1.4; /* mobile first */
   }
-  
+
   .card-text-b {
     font-size: 1.25rem !important;
   }
@@ -212,105 +216,36 @@ section.hero-partners {
   background-position: center -10px;
 }
 
-.hero-partners__title {
-  margin-top: 0;
-  font-size:2.5em;
-}
 
-@media screen and (min-width: 436px) {
-  section.hero-partners {
-    background-size: 200% !important;
-    background-position: center 0px;
-  }
-}
 
-@media screen and (min-width: 500px) {
-  section.hero-partners {
-    background-size: 150% !important;
-    background-position: center -50px;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  section.hero-partners {
-    background-size: cover !important;
-    background-position: center -50px;
-  }
-  .hero-partners__title {
-    margin-top: 0;
-    font-size:3em;
-  }
-}
-
-@media screen and (min-width: 992px) {
-  section.hero-partners {
-    background-size: 100%;
-    background-position: center;
-  }
-}
-
-@media screen and (min-width: 1025px) {
-  .hero-partners__title {
-    margin-top: 10px;
-    font-size:3.2em;
-  }
-
-}
 /* CAREERS */
 .hero-careers {
   background: url('../images/happy-caregivers.jpg');
   background-repeat:no-repeat;
   background-size: cover;
-  background-position: center 0;
+  background-position: center bottom;
   //padding-top: 40px;
   padding-top: 20px;
-  padding-left: 1.5%; 
+  padding-left: 1.5%;
   padding-right: 1.5%;
   height:550px;
 }
 
 
-.hero-careers__title {
-  
-  font-size:3.2rem;
-  
+/* ABOUT US */
+
+.hero-about-us {
+  background: url('../images/inpatient_darken-1.jpg');
+  background-repeat:no-repeat;
+  background-size: cover;
+  background-position: center 0;
+  //padding-top: 40px;
+  padding-top: 20px;
+  padding-left: 1.5%;
+  padding-right: 1.5%;
+  height:550px;
 }
 
-@media screen and (min-width: 436px) {
-  .hero-careers__title {
-    font-size:3.5rem;
-  }
-}
-
-@media screen and (min-width: 568px) {
-  .hero-careers__title {
-    font-size:4rem;
-  }
-}
-
-@media screen and (min-width: 648px) {
-  .hero-careers__title {
-    font-size:4.5rem;
-  }
-}
-
-@media screen and (min-width: 730px) {
-  .hero-careers__title {
-    font-size:5rem;
-  }
-}
-
-@media screen and (min-width: 810px) {
-  .hero-careers__title {
-    font-size:5.5rem;
-  }
-}
-
-@media screen and (min-width: 992px) {
-  .hero-careers__title {
-    margin-top: 15px;
-  }
-}
 
 /* PLACEHOLDER */
 form {
@@ -342,6 +277,6 @@ form {
     font-size:.7em;
     padding-left: 2%;
     text-transform: uppercase;
-  } 
-}  
+  }
+}
 
