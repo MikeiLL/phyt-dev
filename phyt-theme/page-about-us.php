@@ -3,27 +3,22 @@
 <section class="partners__content">
   <div class="container ">
       <div class="row">
-        <div class="col-12 col-md-8">
-          <h1>Lorem ipsum dolor sit amet, consectetur Daisy elit.</h1>
-          <h2>Duo Reges: constructio interrete. Igitur neque stultorum quisquam beatus neque sapientium non beatus. Etsi qui potest intellegi aut cogitari esse aliquod animal, quod se oderit?</h2>
+        <div class="col-12">
+
+          <h1>Phyt Rehab is a national full service rehabilitation management organization led by a team of rehabilitation therapists who are experts in the totality of regulatory and compliance issues particular to the rehabilitation facility environment.</h1>
+
+<h2>Phyt is dedicated to providing innovative clinical, management, billing, and information technology solutions to the post-acute care continuum.</h2>
+
+<p>With over 35 years of experience, Phyt Rehab embraces the ever-changing needs of healthcare, working with patients and partners to continuously deliver comprehensive rehabilitation programs.</p>
+
+
         </div>
-        <div class="col-12 col-md-4 pt-4">
-          <img class="img-fluid box-shadow mb-3" alt="Bio Picture" src="<?= get_template_directory_uri(); ?>/dist/images/Woman-and-online-ideas.jpg">
-        </div>
+
       </div>
 
-       <div class="row">
-          <div class="col-12">
-
-            <p>Quas enim kakaw Graeci appellant, vitia malo quam malitias nominare. Eaedem res maneant alio modo. Occultum facinus esse potuerit, gaudebit; </p>
-
-            <p>Rhetorice igitur, inquam, nos mavis quam dialectice disputare? Vitae autem degendae ratio maxime quidem illis placuit quieta. Ne amores quidem sanctos a sapiente alienos esse arbitrantur. Eam tum adesse, cum dolor omnis absit; Si verbum sequimur, primum longius verbum praepositum quam bonum. Cupiditates non Epicuri divisione finiebat, sed sua satietate. Quid loquor de nobis, qui ad laudem et ad decus nati, suscepti, instituti sumus? Non ego tecum iam ita iocabor, ut isdem his de rebus, cum L. Sed tamen omne, quod de re bona dilucide dicitur, mihi praeclare dici videtur. </p>
-          </div>
-        </div>
-    </div>
 
     <section class="states-map container-fluid">
-      <img class="full-size" alt="Map of States with Phyt Presence" src="<?= get_template_directory_uri(); ?>/dist/images/states-map.png">
+      <img class="img-fluid" alt="Bio Picture" src="<?= get_template_directory_uri(); ?>/dist/images/smaller-nodes.png">
     </section>
 
 
