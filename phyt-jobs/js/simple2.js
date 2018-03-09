@@ -74,9 +74,16 @@ jQuery(document).ready(function($) {
 				
 				for (var key in data) {
 					jobs_listings += '<p>',
-					jobs_listings += '<a href="'+data[key].link+'">'+data[key].title+'</a><br />';
-					jobs_listings += '<span>' + data[key].address + '</span><br />';
-					jobs_listings += '<span>' + data[key].city + ' ' + data[key].state + ', ' + data[key].zip + '</span><br />';
+					// TODO Clean this up with an array loop
+					if (data[key].job_title){
+						jobs_listings += '<a href="'+data[key].link+'">'+data[key].title+'</a><br />';
+					} 
+					if (data[key].address){
+						jobs_listings += '<span>' + data[key].address + '</span><br />';
+					}
+					if (data[key].city){
+						jobs_listings += '<span>' + data[key].city + ' ' + data[key].state + ', ' + data[key].zip + '</span><br />';
+					}
 					jobs_listings += "<span>";
 					if (data[key].job_title){
 						jobs_listings += '<strong>Job Title</strong>: ' + data[key].job_title + ' ';
