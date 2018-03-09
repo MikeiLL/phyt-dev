@@ -71,14 +71,14 @@ jQuery(document).ready(function($) {
 				jobs_listings = '',
 				count = Object.keys(data).length;
 				var opening = (count > 1) ? 'openings' : 'opening';
-				
+
 				for (var key in data) {
-					jobs_listings += '<p>',
+					jobs_listings += '<p>';
 					// TODO Clean this up with an array loop
 					if (data[key].job_title){
 						jobs_listings += '<a href="'+data[key].link+'">'+data[key].title+'</a><br />';
 					} 
-					if (data[key].address){
+					if (data[key].address && data[key].address){
 						jobs_listings += '<span>' + data[key].address + '</span><br />';
 					}
 					if (data[key].city){
