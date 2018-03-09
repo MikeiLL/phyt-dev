@@ -86,6 +86,8 @@
             <li>All Quality Assurance Initiatives</li>
           </ul>
 
+          <p>With our emphasis on key metrics, Phyt provides continuous compliance reviews and drives enhanced processes. All this is capped by functional outcome tracking and reporting, plus case mix and payer source analysis and optimization.</p>
+
       </div> <!-- // \col -->
 
     </div> <!-- // \row -->

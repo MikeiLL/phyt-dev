@@ -11,6 +11,7 @@
 
 h1 {
   text-transform: capitalize;
+  margin-top: 3em;
 }
 
 @media (min-width: map-get($breakpoints, medium)) {
@@ -211,7 +212,7 @@ section.hero-partners {
   background: linear-gradient(
                 rgba(0, 0, 0, 0.45),
                 rgba(20, 20, 20, 0.45)
-              ), url('../images/medical-cooperation.jpg') center center no-repeat;
+              ), url('../images/about-us-hero.jpg') center center no-repeat;
   background-size: 300%;
   background-position: center -10px;
 }
