@@ -5,20 +5,20 @@ services:
     image: "wordpress:${WP_VERSION:-4.9.6}-php${PHP_VERSION:-7.2}-apache"
     environment:
       VIRTUAL_HOST: "${DOCKER_DEV_DOMAIN:-project.test}"
-      WORDPRESS_ACTIVATE_PLUGINS: "" # plugin folder relative to /wp-content/plugins/
-      WORDPRESS_ACTIVATE_THEME: ""   # theme folder relative to /wp-content/themes/
-      WORDPRESS_SITE_TITLE: "Phyt Rehab"
-      WORDPRESS_SITE_URL: "http://${DOCKER_DEV_DOMAIN}"
-      XDEBUG_CONFIG: "remote_host=${DOCKER_LOCAL_IP} idekey=xdebug"
+      WORDPRESS_DB_HOST: "mysql"
+      WORDPRESS_DB_NAME: "wordpress"
+      WORDPRESS_DB_PASSWORD: ""
+      WORDPRESS_DB_USER: "root"
     depends_on:
       - "mysql"
     networks:
       - "front"
       - "back"
     volumes:
-        - "./phyt-jobs:/var/www/html/wp-content/plugins/phyt-jobs"
-        - "./phyt-theme:/var/www/html/wp-content/themes/phyt-theme"
-        - "./soil/:/var/www/html/wp-content/plugins/soil"
+        - "wp:/var/www/html:rw"
+        - "./phyt-jobs:/var/www/html/wp-content/plugins/phyt-jobs:ro"
+        - "./phyt-theme:/var/www/html/wp-content/themes/phyt-theme:ro"
+        - "./soil/:/var/www/html/wp-content/plugins/soil:ro"
   wp-cli:
     image: "wordpress:cli-php${PHP_VERSION:-7.2}"
     environment:
